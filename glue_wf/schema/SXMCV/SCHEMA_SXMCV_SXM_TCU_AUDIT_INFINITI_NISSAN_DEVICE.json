@@ -1,0 +1,242 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "COUNTRY",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "VIN",
+        "dataType": "VIN",
+        "length": "17",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "CDI_ID",
+        "length": "11",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "BRAND",
+        "length": "8",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MODEL",
+        "length": "13",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "YEAR",
+        "length": "4",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "TCU_MFG",
+        "length": "6",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DCM_ID",
+        "length": "15",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NAVI_ID",
+        "length": "15",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SIM_ID",
+        "length": "21",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "IMEI",
+        "length": "15",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MSISDN",
+        "length": "15",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SALES_DATE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PLAN_NAME",
+        "length": "50",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PLAN_EXPIRATION_DATE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SIM_ACT_START_DATE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SIM_ACT_END_DATE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ENROLL_FLAG",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "STATUS_CODE",
+        "length": "12",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SELF_PAY_FLAG",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "WIRELESS_ACT_STATUS",
+        "length": "8",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "TCU_ADD_DATE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "TCU_REMOVED_DATE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SERVICE_PROV_STATUS",
+        "length": "15",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "TCU_TYPE",
+        "length": "7",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RETROFIT",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MARKETING_COLOR",
+        "length": "14",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "REPLACED_DEVICE_DCM_ID",
+        "length": "12",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "REPLACED_DEVICE_NAVI_ID",
+        "length": "12",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "REPLACED_DEVICE_SIM_ID",
+        "length": "20",
+        "minLength": "0"
+    }
+]

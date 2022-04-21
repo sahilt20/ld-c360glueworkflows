@@ -1,0 +1,74 @@
+[
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PointBalanceID",
+        "length": "20",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "CardCustomerID",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "LoyaltyCardNumber",
+        "length": "16",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ServiceBalance",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SalesBalance",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "BonusBalance",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SpecialOfferSalesBalance",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SpecialOfferServiceBalance",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "LastModTsp",
+        "length": "25",
+        "minLength": "0"
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Account Number",
+        "from": "1",
+        "length": "11"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Last Name",
+        "dataType": "NAME",
+        "from": "12",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "First Name",
+        "relatedColumns": [
+            "First Name",
+            "Last Name"
+        ],
+        "dataType": "NAME",
+        "from": "37",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Address 1",
+            "Address 2",
+            "City",
+            "State",
+            "Zip"
+        ],
+        "column": "Address 1",
+        "dataType": "ADDRESS",
+        "from": "62",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Address 2",
+        "dataType": "ADDRESS",
+        "from": "87",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "City",
+        "dataType": "ADDRESS",
+        "from": "112",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "State",
+        "dataType": "ADDRESS",
+        "from": "137",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Zip",
+        "dataType": "ADDRESS",
+        "from": "139",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VIN",
+        "dataType": "VIN",
+        "from": "148",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Model Year",
+        "from": "165",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Model",
+        "from": "169",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Lease Date",
+        "from": "179",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Matuity Date",
+        "from": "189",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Book Date",
+        "from": "199",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Term Date",
+        "from": "209",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Payment",
+        "from": "219",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Term",
+        "from": "228",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Original Term",
+        "from": "231",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Vehicle MSRP",
+        "from": "235",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "CAP_COST_AMT",
+        "from": "244",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "TOT_MO_PMT",
+        "from": "253",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "CAP_COST_RED_AMT",
+        "from": "262",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "EOT_AMT",
+        "from": "271",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Gross Payoff",
+        "from": "280",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "lease",
+        "from": "290",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Customer Spouse Name",
+        "from": "291",
+        "length": "25"
+    }
+
+]

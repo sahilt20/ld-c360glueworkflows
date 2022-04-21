@@ -1,0 +1,217 @@
+[
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DEALER_CODE",
+        "length": "5",
+        "minLength": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "REGION",
+        "length": "2",
+        "minLength": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DISTRICT",
+        "length": "2",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "DEALER_NAME",
+        "dataType": "WILDCARD",
+        "length": "40",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "ADDRESS",
+            "",
+            "CITY",
+            "STATE",
+            "ZIP"
+        ],
+        "column": "ADDRESS",
+        "dataType": "ADDRESS",
+        "length": "55",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "CITY",
+        "dataType": "ADDRESS",
+        "length": "25",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "STATE",
+        "dataType": "ADDRESS",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "ZIP",
+        "dataType": "ADDRESS",
+        "length": "5",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "COUNTRY",
+        "dataType": "ADDRESS",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "PHONE",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FAX",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "EMAIL",
+        "dataType": "EMAIL",
+        "length": "50",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "URL",
+        "length": "50",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MAKE",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ACTIVE",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "OWNERSFIRST",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PREFERRED",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "GTR",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ES",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "AREA",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "EV",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "LCV",
+        "length": "3",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NRC",
+        "length": "3",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "eCommerce",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Global award of Excellent",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FILLER",
+        "length": "1",
+        "minLength": "0"
+    }
+]

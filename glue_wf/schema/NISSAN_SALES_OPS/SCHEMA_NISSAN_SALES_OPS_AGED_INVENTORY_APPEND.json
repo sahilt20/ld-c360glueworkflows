@@ -1,0 +1,163 @@
+[
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MDLYR",
+        "length": "5",
+        "minLength": "1"
+    },
+    {
+        "nullable":"False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RGN",
+        "length": "2",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "AREA",
+        "length": "3",
+        "minLength": "1"
+    },
+    {
+        "nullable":"False",
+        "regex": "False",
+        "column": "DIST",
+        "dataType": "ADDRESS",
+        "length": "2",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MDL",
+        "length": "3",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MCODE",
+        "length": "5",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "True",
+        "column": "VIN",
+        "dataType": "VIN",
+        "length": "17",
+        "minLength": "1"
+    },
+    {
+        "nullable":"False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "CURDLR",
+        "length": "4",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "True",
+        "column": "DEALER_NAME",
+        "dataType": "NAME",
+        "length": "25",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DLR_ST_CD",
+        "length": "2",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "INV_DT",
+        "length": "19",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "True",
+        "relatedColumns":["First_Name","Last_Name"],
+        "column": "First_Name",
+        "dataType": "NAME",
+        "length": "25",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "True",
+        "column": "Last_Name",
+        "dataType": "NAME",
+        "length": "25",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RO Service Date",
+        "length": "25",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RO Mileage",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FI Contract Date",
+        "length": "25",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FI Mileage",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FILLER1",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FILLER2",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FILLER3",
+        "length": "20",
+        "minLength": "0"
+    }
+]

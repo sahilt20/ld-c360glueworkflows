@@ -1,0 +1,134 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Transaction Type",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Source Code",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Infiniti Dealership ID",
+        "length": "32",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Dealership Name",
+        "dataType": "WILDCARD",
+        "length": "100",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Customer Name Prefix",
+        "dataType": "WILDCARD",
+        "length": "6",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Customer First Name",
+            "Customer Last  Name"
+        ],
+        "column": "Customer First Name",
+        "dataType": "NAME",
+        "length": "50",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Customer Last  Name",
+        "dataType": "NAME",
+        "length": "50",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Customer Zip Code",
+        "dataType": "ADDRESS",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Customer Phone Number Type",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Customer Phone Number",
+        "dataType": "PHONE",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Customer Email Address",
+        "dataType": "EMAIL",
+        "length": "100",
+        "minLength": "0"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "VIN",
+        "dataType": "VIN",
+        "length": "64",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Benefit Issuance Date_Time",
+        "length": "64",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Benefit Expiration Date",
+        "length": "64",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Maestro Internal Customer ID",
+        "length": "12",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Benefit Code",
+        "length": "1",
+        "minLength": "0"
+    }
+]

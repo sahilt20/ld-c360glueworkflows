@@ -1,0 +1,34 @@
+[
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "VIN",
+        "dataType": "VIN",
+        "length": "17",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "EXPORT DATES",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "AUCTION DATES",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DEALER INVENTORY DATES",
+        "length": "10",
+        "minLength": "0"
+    }
+]

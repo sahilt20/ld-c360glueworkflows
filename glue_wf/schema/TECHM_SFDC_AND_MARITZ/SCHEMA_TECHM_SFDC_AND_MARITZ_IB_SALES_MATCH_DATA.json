@@ -1,0 +1,240 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Case: Case Number",
+        "length": "9",
+        "minLength": "0"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Case: Case ID",
+        "length": "15",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Chat Transcript Name",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Channel",
+        "length": "5",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Case: Account Name: Customer ID",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Account Name: Account Name",
+        "dataType": "WILDCARD",
+        "length": "35",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Case: Account Name: Person Account: Mailing Street",
+            "Case: Account Name: Person Account: Mailing City",
+            "Case: Account Name: Person Account: Mailing State/Province",
+            "",
+            "Case: Account Name: Person Account: Mailing Zip/Postal Code"
+        ],
+        "column": "Case: Account Name: Person Account: Mailing Street",
+        "dataType": "ADDRESS",
+        "length": "6",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Account Name: Person Account: Mailing City",
+        "dataType": "ADDRESS",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Account Name: Person Account: Mailing State/Province",
+        "dataType": "ADDRESS",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Account Name: Person Account: Mailing Zip/Postal Code",
+        "dataType": "ADDRESS",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Account Name: Person Account: Home Phone",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Account Name: Person Account: Mobile",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Account Name: Person Account: Phone",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Account Name: Person Account: Email",
+        "dataType": "EMAIL",
+        "length": "9",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Case: Mailing Street 1",
+            "Case: Mailing City",
+            "Case: Mailing State",
+            "",
+            "Case: Mailing Zip Code"
+        ],
+        "column": "Case: Mailing Street 1",
+        "dataType": "ADDRESS",
+        "length": "5",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Mailing City",
+        "dataType": "ADDRESS",
+        "length": "16",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Mailing State",
+        "dataType": "ADDRESS",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Mailing Zip Code",
+        "dataType": "ADDRESS",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Home Phone",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Mobile Phone",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Work Phone",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Case: Email",
+        "dataType": "EMAIL",
+        "length": "60",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Case: Make",
+        "length": "8",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Case: Model",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Case: Year",
+        "length": "4",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Created Date",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Case: Case Reason",
+        "length": "34",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Deployment: Developer Name",
+        "length": "86",
+        "minLength": "0"
+    }
+]

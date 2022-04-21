@@ -1,0 +1,106 @@
+[
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "claim_id",
+        "minLength": "1",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "form_type",
+        "minLength": "0",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "status",
+        "minLength": "0",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "vin",
+        "dataType": "VIN",
+        "minLength": "0",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "request_dt",
+        "minLength": "0",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "approval_dt",
+        "minLength": "0",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "purchase_dt",
+        "minLength": "0",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "return_dt",
+        "minLength": "0",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "declined_dt",
+        "minLength": "0",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "preferred_dealer_code ",
+        "minLength": "0",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "preferred_make",
+        "minLength": "0",
+        "length": "50"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "preferred_model",
+        "minLength": "0",
+        "length": "50"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "preferred_model_year",
+        "minLength": "0",
+        "length": "6"
+    }
+]

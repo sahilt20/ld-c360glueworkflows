@@ -1,0 +1,288 @@
+[
+    {
+        "nullable":"False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Region",
+        "length": "2",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Area",
+        "length": "3",
+        "minLength": "1"
+    },
+    {
+        "nullable":"False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "District",
+        "length": "2",
+        "minLength": "1"
+    },
+    {
+        "nullable":"False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DlrCode",
+        "length": "4",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DlrType",
+        "length": "1",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DealerName",
+        "length": "25",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DealerDBAName",
+        "length": "60",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DealerLegalName",
+        "length": "60",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "True",
+        "relatedColumns": [
+            "MailingAddress",
+            "",
+            "MailingCity",
+            "MailingState",
+            "MailingZip"
+        ],
+        "column": "MailingAddress",
+        "dataType": "ADDRESS",
+        "length": "25",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "True",
+        "column": "MailingCity",
+        "dataType": "ADDRESS",
+        "length": "20",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "True",
+        "column": "MailingState",
+        "dataType": "ADDRESS",
+        "length": "2",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "True",
+        "column": "MailingZip",
+        "dataType": "ADDRESS",
+        "length": "5",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "True",
+        "dataType": "WILDCARD",
+        "column": "Telephone",
+        "length": "10",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Fax",
+        "length": "10",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "True",
+        "relatedColumns": [
+            "FacilityAddress",
+            "",
+            "FacilityCity",
+            "FacilityState",
+            "FacilityZip"
+        ],
+        "column": "FacilityAddress",
+        "dataType": "ADDRESS",
+        "length": "25",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "True",
+        "column": "FacilityCity",
+        "dataType": "ADDRESS",
+        "length": "20",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "True",
+        "column": "FacilityState",
+        "dataType": "ADDRESS",
+        "length": "2",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "True",
+        "column": "FacilityZip",
+        "dataType": "ADDRESS",
+        "length": "5",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "AppointmentDate",
+        "length": "10",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SalesPoint",
+        "length": "5",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PrinOwner1",
+        "length": "25",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ExecMgr",
+        "length": "25",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Commercial Vehicles",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Taxi",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "EV",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "GT-R",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Nissan Express Service",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Infiniti Express Service",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Nissan Rental Car",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-Business Certified",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Primary Owner Group",
+        "length": "35",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Primary Owner Type",
+        "length": "14",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DMA",
+        "length": "3",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DMA_DSC",
+        "length": "26",
+        "minLength": "1"
+    }
+]

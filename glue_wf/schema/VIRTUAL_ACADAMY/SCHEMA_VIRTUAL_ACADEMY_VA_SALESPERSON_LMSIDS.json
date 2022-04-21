@@ -1,0 +1,110 @@
+[
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Employee Code",
+        "from": "1",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "First_Name",
+            "Last_Name"
+        ],
+        "column": "First_Name",
+        "dataType": "NAME",
+        "from": "7",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Last_Name",
+        "dataType": "NAME",
+        "from": "22",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Division",
+        "from": "47",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealer_Code",
+        "from": "48",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Primary_Employee_Type",
+        "from": "53",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Email",
+        "dataType": "EMAIL",
+        "from": "55",
+        "length": "100"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Added Date",
+        "from": "155",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Last Updated Date",
+        "from": "165",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Employee Number",
+        "from": "175",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NNANet Login Name",
+        "from": "201",
+        "length": "31"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NNAnet Position Code",
+        "from": "232",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "LMS ID",
+        "from": "236",
+        "length": "10"
+    }
+]

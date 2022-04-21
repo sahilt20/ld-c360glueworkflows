@@ -1,0 +1,50 @@
+[
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "VIN_NUM",
+        "dataType": "VIN",
+        "from": "1",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "CNTR_NUM",
+        "from": "18",
+        "length": "11"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "CNTR_END_DATE",
+        "from": "29",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VEH_GRND_DATE",
+        "from": "37",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VEH_RCVRY_DATE",
+        "from": "45",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NNA_DLR_NUM",
+        "from": "53",
+        "length": "5"
+    }
+]

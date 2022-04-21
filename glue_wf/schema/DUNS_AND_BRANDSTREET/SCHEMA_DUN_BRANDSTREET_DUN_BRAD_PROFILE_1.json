@@ -1,0 +1,1407 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Unique Customer Key",
+        "from": "1",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Customer Source Key",
+        "from": "31",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Customer Defined field 1",
+        "from": "61",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Customer Defined field 2",
+        "from": "91",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Customer Defined field 3",
+        "from": "121",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Company Name",
+        "from": "151",
+        "length": "60"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Primary Address 1",
+            "",
+            "Primary City",
+            "Primary State",
+            "Primary Zip/Postal Code"
+        ],
+        "column": "Primary Address 1",
+        "dataType": "ADDRESS",
+        "from": "211",
+        "length": "55"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Primary City",
+        "dataType": "ADDRESS",
+        "from": "266",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Primary State",
+        "dataType": "ADDRESS",
+        "from": "296",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Primary Zip/Postal Code",
+        "dataType": "ADDRESS",
+        "from": "298",
+        "length": "18"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Primary Country Name",
+        "from": "316",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Phone Number",
+        "dataType": "PHONE",
+        "from": "346",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SequenceNumber",
+        "from": "366",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NCOA Move Effective Date",
+        "from": "375",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NIXIE A",
+        "from": "387",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NIXIE B",
+        "from": "388",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NIXIE C",
+        "from": "389",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Primary Number",
+        "from": "390",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Pre-Directional",
+        "dataType": "ADDRESS",
+        "from": "400",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Street Name",
+            "Street Suffix",
+            "City",
+            "State",
+            "ZIP Code"
+        ],
+        "column": "Street Name",
+        "dataType": "ADDRESS",
+        "from": "402",
+        "length": "28"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Street Suffix",
+        "dataType": "ADDRESS",
+        "from": "430",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Post Directional",
+        "dataType": "WILDCARD",
+        "from": "434",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Unit Designator",
+        "dataType": "WILDCARD",
+        "from": "436",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Secondary Number",
+        "dataType": "WILDCARD",
+        "from": "440",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "City",
+        "dataType": "ADDRESS",
+        "from": "448",
+        "length": "28"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "State",
+        "dataType": "ADDRESS",
+        "from": "476",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "ZIP Code",
+        "dataType": "ADDRESS",
+        "from": "478",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "ZIP +4 Code",
+        "dataType": "WILDCARD",
+        "from": "483",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Delivery Point Barcode",
+        "from": "487",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Carrier Route Code",
+        "from": "490",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Line of Travel Code",
+        "from": "494",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "AA Match Flag",
+        "from": "499",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DSF Match Flag",
+        "from": "500",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DSF Sort",
+        "from": "501",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Deliverability Indicator",
+        "from": "502",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DSF Deliverability Type",
+        "from": "503",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DSF Vacancy Indicator",
+        "from": "504",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DSF Seasonal Indicator",
+        "from": "505",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DSF Drop Indicator",
+        "from": "506",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Primary Address",
+        "dataType": "WILDCARD",
+        "from": "507",
+        "length": "46"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Secondary Address",
+        "dataType": "WILDCARD",
+        "from": "553",
+        "length": "12"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PriNum Change Indicator",
+        "from": "565",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PreDir Change Indicator",
+        "from": "566",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PriName Change Indicator",
+        "from": "567",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Suffix Change Indicator",
+        "from": "568",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PostDir Change Indicator",
+        "from": "569",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SecUnitDes Change Indicator",
+        "from": "570",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SecNum Change Indicator",
+        "from": "571",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "CityName Change Indicator",
+        "from": "572",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "StateAbrev Change Indicator",
+        "from": "573",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ZIPCode Change Indicator",
+        "from": "574",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ZIP4 Change Indicator",
+        "from": "575",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Match Code",
+        "from": "576",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "BEMFAB (Marketability)",
+        "from": "577",
+        "length": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "D-U-N-S Number",
+        "from": "578",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MatchGrade Report 3",
+        "from": "587",
+        "length": "11"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Confidence Code",
+        "from": "598",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Name Profile Code",
+        "from": "604",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Street Number Profile Code",
+        "from": "606",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Street Name Profile Code",
+        "from": "608",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "City Profile Code",
+        "from": "610",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "State/Province Profile Code",
+        "from": "612",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PO Box Profile Code",
+        "from": "614",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Phone Profile Code",
+        "from": "616",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ZIP Profile Code",
+        "from": "618",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SIC Profile Code",
+        "from": "620",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Density Profile Code",
+        "from": "622",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Uniqueness Profile Code",
+        "from": "624",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Customer Address DSF Code",
+        "from": "626",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Physical Address Type Code",
+        "from": "627",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Physical Address DSF Code",
+        "from": "628",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Mailing Address Type Code",
+        "from": "629",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Mailing Address DSF Code",
+        "from": "630",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DPV code-Physical Address (non-branch)",
+        "from": "631",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DPV code-Physical Address (branch)",
+        "from": "632",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Physical Address Delivery Type Code",
+        "from": "633",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Mailing Address Delivery Type Code",
+        "from": "634",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DSF Physical Address Type Match Flag",
+        "from": "635",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DSF Mailing Address Type Match Flag",
+        "from": "636",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "CMRA Code - Physical Address",
+        "from": "637",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "CMRA Code - Mailing Address",
+        "from": "638",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Correction Opportunity Indicator",
+        "from": "639",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "D-U-N-S Number1",
+        "from": "640",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Business Name",
+        "dataType": "WILDCARD",
+        "from": "649",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Tradestyle Name",
+        "dataType": "WILDCARD",
+        "from": "679",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Street Address",
+            "",
+            "City Name",
+            "State Code",
+            "ZIP Code1"
+        ],
+        "column": "Street Address",
+        "dataType": "ADDRESS",
+        "from": "709",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "City Name",
+        "dataType": "ADDRESS",
+        "from": "734",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "State Code",
+        "dataType": "ADDRESS",
+        "from": "754",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "ZIP Code1",
+        "dataType": "ADDRESS",
+        "from": "756",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "ZIP+4 Extension",
+        "dataType": "WILDCARD",
+        "from": "761",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Mailing Address",
+            "",
+            "Mailing City Name",
+            "Mailing State Code",
+            "Mailing ZIP Code"
+        ],
+        "column": "Mailing Address",
+        "dataType": "ADDRESS",
+        "from": "765",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Mailing City Name",
+        "dataType": "ADDRESS",
+        "from": "790",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Mailing State Code",
+        "dataType": "ADDRESS",
+        "from": "810",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Mailing ZIP Code",
+        "dataType": "ADDRESS",
+        "from": "812",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Mailing ZIP+4 Extension",
+        "dataType": "WILDCARD",
+        "from": "817",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Carrier Route Code1",
+        "from": "821",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Delivery Point Code",
+        "from": "825",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "D&amp;B Country Code",
+        "from": "827",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "D&amp;B State Code",
+        "from": "830",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "D&amp;B US County Code",
+        "from": "832",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "D&amp;B US City Code",
+        "from": "835",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SMSA Code",
+        "from": "839",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FIPS State Code",
+        "from": "845",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FIPS County Code",
+        "from": "847",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FIPS MSA Code",
+        "from": "850",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Telephone Number",
+        "dataType": "PHONE",
+        "from": "857",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Chief Executive Officer - First Name",
+            "Chief Executive Officer - Middle Initial",
+            "Chief Executive Officer - Last Name"
+        ],
+        "column": "Chief Executive Officer - First Name",
+        "dataType": "NAME",
+        "from": "867",
+        "length": "13"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Chief Executive Officer - Middle Initial",
+        "dataType": "WILDCARD",
+        "from": "880",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Chief Executive Officer - Last Name",
+        "dataType": "NAME",
+        "from": "881",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Chief Executive Officer - Suffix",
+        "dataType": "WILDCARD",
+        "from": "896",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Chief Executive Officer - Prefix",
+        "dataType": "WILDCARD",
+        "from": "899",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Chief Executive Officer - Title",
+        "dataType": "WILDCARD",
+        "from": "909",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Chief Executive Officer - Management Responsibility Code (MRC)",
+        "from": "939",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Sales Volume",
+        "from": "943",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Sales Volume Reliability Code",
+        "from": "958",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Employees Total",
+        "from": "959",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Employees Total Reliability Code",
+        "from": "968",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Employees Here",
+        "from": "969",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Employees Here Reliability Code",
+        "from": "978",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Year Started",
+        "from": "979",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Status Code",
+        "from": "983",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Subsidiary Indicator",
+        "from": "984",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Manufacturing Indicator",
+        "from": "985",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Global Ultimate D-U-N-S Number",
+        "from": "986",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Headquarter D-U-N-S Number",
+        "from": "995",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Parent D-U-N-S Number",
+        "from": "1004",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Headquarter/Parent City Name",
+        "dataType": "ADDRESS",
+        "from": "1013",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Headquarter/Parent State Code",
+        "dataType": "ADDRESS",
+        "from": "1033",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Hierarchy Code",
+        "from": "1053",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dias Code",
+        "from": "1055",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Population Code",
+        "from": "1064",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Last Update Date",
+        "from": "1066",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Chief Executive Officer Gender Code",
+        "from": "1072",
+        "length": "19"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Record Class Type",
+        "from": "1091",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Line of Business",
+        "from": "1092",
+        "length": "19"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "US 1987 SIC 1",
+        "from": "1111",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "US 1987 SIC 2",
+        "from": "1131",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "US 1987 SIC 3",
+        "from": "1151",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "US 1987 SIC 4",
+        "from": "1171",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "US 1987 SIC 5",
+        "from": "1191",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "US 1987 SIC 6",
+        "from": "1211",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "FIRST EXECUTIVE FIRST NAME",
+            "FIRST EXECUTIVE MIDDLE INITIAL",
+            "FIRST EXECUTIVE LAST NAME"
+        ],
+        "column": "FIRST EXECUTIVE FIRST NAME",
+        "dataType": "NAME",
+        "from": "1231",
+        "length": "13"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "FIRST EXECUTIVE MIDDLE INITIAL",
+        "dataType": "WILDCARD",
+        "from": "1244",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "FIRST EXECUTIVE LAST NAME",
+        "dataType": "NAME",
+        "from": "1245",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "FIRST EXECUTIVE SUFFIX",
+        "dataType": "WILDCARD",
+        "from": "1260",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "FIRST EXECUTIVE PREFIX",
+        "dataType": "WILDCARD",
+        "from": "1263",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "FIRST EXECUTIVE TITLE",
+        "dataType": "WILDCARD",
+        "from": "1273",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "FIRST EXECUTIVE MRC CODE",
+        "dataType": "WILDCARD",
+        "from": "1303",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "SECOND EXECUTIVE FIRST NAME",
+            "SECOND EXECUTIVE MIDDLE INITIAL",
+            "SECOND EXECUTIVE LAST NAME"
+        ],
+        "column": "SECOND EXECUTIVE FIRST NAME",
+        "dataType": "NAME",
+        "from": "1307",
+        "length": "13"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "SECOND EXECUTIVE MIDDLE INITIAL",
+        "dataType": "WILDCARD",
+        "from": "1320",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "SECOND EXECUTIVE LAST NAME",
+        "dataType": "NAME",
+        "from": "1321",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "SECOND EXECUTIVE SUFFIX",
+        "dataType": "WILDCARD",
+        "from": "1336",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "SECOND EXECUTIVE PREFIX",
+        "dataType": "WILDCARD",
+        "from": "1339",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "SECOND EXECUTIVE TITLE",
+        "dataType": "WILDCARD",
+        "from": "1349",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SECOND EXECUTIVE MRC CODE",
+        "from": "1379",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "THIRD EXECUTIVE FIRST NAME",
+            "THIRD EXECUTIVE MIDDLE INITIAL",
+            "THIRD EXECUTIVE LAST NAME"
+        ],
+        "column": "THIRD EXECUTIVE FIRST NAME",
+        "dataType": "NAME",
+        "from": "1383",
+        "length": "13"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "THIRD EXECUTIVE MIDDLE INITIAL",
+        "dataType": "WILDCARD",
+        "from": "1396",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "THIRD EXECUTIVE LAST NAME",
+        "dataType": "NAME",
+        "from": "1397",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "THIRD EXECUTIVE SUFFIX",
+        "dataType": "WILDCARD",
+        "from": "1412",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "THIRD EXECUTIVE PREFIX",
+        "dataType": "WILDCARD",
+        "from": "1415",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "THIRD EXECUTIVE TITLE",
+        "dataType": "WILDCARD",
+        "from": "1425",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "THIRD EXECUTIVE MRC CODE",
+        "from": "1455",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "FOURTH EXECUTIVE FIRST NAME",
+            "FOURTH EXECUTIVE MIDDLE INITIAL",
+            "FOURTH EXECUTIVE LAST NAME"
+        ],
+        "column": "FOURTH EXECUTIVE FIRST NAME",
+        "dataType": "NAME",
+        "from": "1459",
+        "length": "13"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "FOURTH EXECUTIVE MIDDLE INITIAL",
+        "dataType": "WILDCARD",
+        "from": "1472",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "FOURTH EXECUTIVE LAST NAME",
+        "dataType": "NAME",
+        "from": "1473",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "FOURTH EXECUTIVE SUFFIX",
+        "dataType": "WILDCARD",
+        "from": "1488",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "FOURTH EXECUTIVE PREFIX",
+        "dataType": "WILDCARD",
+        "from": "1491",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "FOURTH EXECUTIVE TITLE",
+        "dataType": "WILDCARD",
+        "from": "1501",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FOURTH EXECUTIVE MRC CODE",
+        "from": "1531",
+        "length": "4"
+    }
+]

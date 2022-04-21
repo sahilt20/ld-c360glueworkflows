@@ -1,0 +1,122 @@
+[
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ZIP",
+        "from": "1",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DEALER1",
+        "from": "6",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DEALER2",
+        "from": "15",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DEALER3",
+        "from": "24",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DEALER4",
+        "from": "33",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "STATE",
+        "from": "41",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DSC",
+        "from": "43",
+        "length": "18"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DISTANCE1",
+        "from": "91",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DISTANCE2",
+        "from": "101",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DISTANCE3",
+        "from": "111",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DISTANCE4",
+        "from": "121",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SALES_POINT1",
+        "from": "131",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SALES_POINT2",
+        "from": "136",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SALES_POINT3",
+        "from": "141",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SALES_POINT4",
+        "from": "146",
+        "length": "5"
+    }
+]

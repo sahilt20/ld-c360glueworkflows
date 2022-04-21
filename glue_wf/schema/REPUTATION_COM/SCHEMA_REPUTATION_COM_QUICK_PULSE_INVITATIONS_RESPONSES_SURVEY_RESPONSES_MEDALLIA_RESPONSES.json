@@ -1,0 +1,593 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_transmissionline_number_text",
+        "length": "6",
+        "minLength": "0"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_surveyid_text",
+        "length": "15",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "unit_identifier",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "nissanusa_vin_text",
+        "dataType": "VIN",
+        "length": "17",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_surveytype_text",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_customertitle_text",
+        "length": "4",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "firstname",
+        "dataType": "NAME",
+        "length": "12",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "nissanusa_customermiddlename_text",
+        "dataType": "NAME",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "lastname",
+        "dataType": "NAME",
+        "length": "18",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "nissanusa_customerstreet_text",
+            "nissanusa_customeraddress2_text",
+            "nissanusa_customercity_text",
+            "nissanusa_customerstate_text",
+            "nissanusa_customerzip_text"
+        ],
+        "column": "nissanusa_customerstreet_text",
+        "dataType": "ADDRESS",
+        "length": "40",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "nissanusa_customeraddress2_text",
+        "dataType": "ADDRESS",
+        "length": "40",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "nissanusa_customercity_text",
+        "dataType": "ADDRESS",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "nissanusa_customerstate_text",
+        "dataType": "ADDRESS",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "nissanusa_customerzip_text",
+        "dataType": "ADDRESS",
+        "length": "5",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "nissanusa_customerdayphone_text",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "nissanusa_customerevephone_text",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_modelyear_autoindex",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_model_autoindex",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_modeltrim_autoindex",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_ronumber_text",
+        "length": "12",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_ro_close_date",
+        "length": "8",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "nissanusa_employee1_name_text",
+        "dataType": "WILDCARD",
+        "length": "30",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_employee1_id_text",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "nissanusa_employee2_name",
+        "dataType": "WILDCARD",
+        "length": "30",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_employee2_id",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_editcode_text",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_salestype_alt",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "email",
+        "dataType": "EMAIL",
+        "length": "100",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_tmid_text",
+        "length": "9",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_emailsource_alt",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_headermake_autoindex",
+        "length": "6",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_headerdate_date",
+        "length": "8",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_serviceadvisorid_text",
+        "length": "7",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_servicetechnicianid_text",
+        "length": "7",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_referencecontactid_text",
+        "length": "9",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_cdi_id_text",
+        "length": "9",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_householdkey_text",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "nissanusa_customeroriginalemail_text",
+        "dataType": "EMAIL",
+        "length": "100",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_emailupdatefailure_reason_alt",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_operationcode_alt",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_paymenttype_alt",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_expressservice_yn",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_salespoint_autoindex",
+        "length": "5",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_purchasedate_date",
+        "length": "15",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_recordsource_alt",
+        "length": "4",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_ncar_tmid_text",
+        "length": "9",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "creationdate",
+        "length": "19",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "responsedate",
+        "length": "19",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "survey_is_mobile_finished",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "survey_language",
+        "length": "7",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_event_alt",
+        "length": "27",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_qp_sales_osat_alt",
+        "length": "25",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_qp_sales_ltr_alt",
+        "length": "15",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_qp_sales_ltr_ltr11scale",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_qp_sales_comment_combined",
+        "length": "255",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_qp_service_new_osat_alt",
+        "length": "25",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_qp_service_new_ltr_alt",
+        "length": "19",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_qp_service_new_ltr_ltr11scale",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_qp_service_new_comment_combined",
+        "length": "255",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_qp_service_old_osat_alt",
+        "length": "25",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_qp_service_old_ltr_alt",
+        "length": "19",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_qp_service_old_ltr_ltr11scale",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_qp_service_old_comment_combined",
+        "length": "255",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_social_score_report_frac",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "alert_triggered",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "surveyid",
+        "length": "20",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "unitid",
+        "dataType": "WILDCARD",
+        "length": "50",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_region",
+        "length": "13",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_area",
+        "length": "3",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_district",
+        "length": "33",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_placeholder1",
+        "length": "100",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_placeholder2",
+        "length": "100",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "nissanusa_placeholder3",
+        "length": "100",
+        "minLength": "0"
+    }
+]

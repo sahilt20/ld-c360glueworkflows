@@ -1,0 +1,189 @@
+[
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NNADlrNum",
+        "from": "1",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DLR_STAT_CD",
+        "from": "6",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Top300Flag",
+        "from": "7",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DlrPartFlg",
+        "from": "8",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PartDate",
+        "from": "9",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "WaiveDate",
+        "from": "17",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "ProgCoordLast",
+        "dataType": "NAME",
+        "from": "25",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "ProgCoordFirst",
+            "ProgCoordLast"
+        ],
+        "column": "ProgCoordFirst",
+        "dataType": "NAME",
+        "from": "45",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "DlrRepName",
+        "dataType": "WILDCARD",
+        "from": "65",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DlrRepTitle",
+        "from": "95",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SLS point num",
+        "from": "125",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NNARgn",
+        "from": "130",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NNADist",
+        "from": "132",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NMACDlrnum",
+        "from": "134",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NMACReg",
+        "from": "139",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NMACDist",
+        "from": "144",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "BUS_Name",
+        "from": "149",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "DLR_Addr",
+            "",
+            "DLR_City",
+            "DLR_State",
+            "DLR_Zip"
+        ],
+        "dataType": "ADDRESS",
+        "column": "DLR_Addr",
+        "from": "174",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DLR_City",
+        "dataType": "ADDRESS",
+        "from": "199",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DLR_Zip",
+        "dataType": "ADDRESS",
+        "from": "219",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DLR_State",
+        "dataType": "ADDRESS",
+        "from": "224",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DLR_Phone",
+        "dataType": "PHONE",
+        "from": "226",
+        "length": "10"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "VIN",
+        "dataType": "VIN",
+        "length": "17",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Special Program Code",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Start Date",
+        "length": "9",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "End Date",
+        "length": "9",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Location ID",
+        "length": "1",
+        "minLength": "0"
+    }
+]

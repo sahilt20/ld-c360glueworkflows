@@ -1,0 +1,226 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "OPTION-CODE",
+        "from": "1",
+        "length": "75"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "BODY-STYLE",
+        "from": "76",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "BODYSTYLE-DESC",
+        "from": "77",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "COMPANY-VEHICLE-STATUS",
+        "from": "82",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ENGINE-CYLINDERS",
+        "from": "83",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "EMISSION-TYPE",
+        "from": "84",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "EMISSION-TYPE-DESC",
+        "from": "85",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ENGINE-CODE-4",
+        "from": "100",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ENGINE-CODE-8",
+        "from": "108",
+        "length": "12"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SERV-DT",
+        "from": "120",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MAKE-DESCRIPTION",
+        "from": "126",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MANUFACTURE-DATEYMD",
+        "from": "136",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MODEL-DESCRIPTION",
+        "from": "142",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MODEL-CODE",
+        "from": "159",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MODEL-YEAR",
+        "from": "164",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MSRP",
+        "from": "166",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SALES-TYPE",
+        "from": "172",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "TRANSMISSION-TYPE",
+        "from": "173",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "TRIM-LEVEL",
+        "from": "178",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "COLOR-CODE",
+        "from": "183",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "COLOR-DESCRIPTION",
+        "from": "186",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VEHICLE-TYPE",
+        "from": "201",
+        "length": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "VIN-NUMBER",
+        "dataType": "VIN",
+        "from": "202",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DEALER-NET",
+        "from": "219",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DEALER-INVOICE",
+        "from": "225",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "INVOICE-DRAFT-DATE",
+        "from": "231",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "TRIM-CODE",
+        "from": "237",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "TRIM-LNG-DESC",
+        "from": "238",
+        "length": "15"
+    }
+]

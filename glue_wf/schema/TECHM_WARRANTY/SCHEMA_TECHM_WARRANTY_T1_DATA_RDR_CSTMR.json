@@ -1,0 +1,278 @@
+[
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Transmission line number",
+        "from": "1",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Survey ID",
+        "from": "7",
+        "length": "9"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealer ID",
+        "from": "16",
+        "length": "5"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "VIN",
+        "dataType": "VIN",
+        "from": "21",
+        "length": "17"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Survey Type",
+        "from": "38",
+        "length": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "column": "Customer Title",
+        "dataType": "NAME",
+        "from": "39",
+        "length": "4"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "relatedColumns": [
+            "Customer First Name",
+            "Customer Middle Initial",
+            "Customer Last Name"
+        ],
+        "column": "Customer First Name",
+        "dataType": "NAME",
+        "from": "43",
+        "length": "16"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "column": "Customer Middle Initial",
+        "dataType": "NAME",
+        "from": "59",
+        "length": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "Customer Last Name",
+        "dataType": "NAME",
+        "from": "60",
+        "length": "18"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "relatedColumns": [
+            "Customer Street",
+            "Customer Address 2",
+            "Customer City",
+            "Customer State",
+            "Customer Zip Code"
+        ],
+        "column": "Customer Street",
+        "dataType": "ADDRESS",
+        "from": "78",
+        "length": "40"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "Customer Address 2",
+        "dataType": "ADDRESS",
+        "from": "118",
+        "length": "40"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "Customer City",
+        "dataType": "ADDRESS",
+        "from": "158",
+        "length": "25"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "Customer State",
+        "dataType": "ADDRESS",
+        "from": "183",
+        "length": "2"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "Customer Zip Code",
+        "dataType": "ADDRESS",
+        "from": "185",
+        "length": "9"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "Customer Day Phone",
+        "dataType": "PHONE",
+        "from": "194",
+        "length": "14"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "Customer Eve Phone",
+        "dataType": "PHONE",
+        "from": "208",
+        "length": "14"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Model Year",
+        "from": "222",
+        "length": "2"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Model Line",
+        "from": "224",
+        "length": "3"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Document ID",
+        "from": "227",
+        "length": "8"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Document Date",
+        "from": "235",
+        "length": "6"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "column": "Name of Employee 1",
+        "dataType": "NAME",
+        "from": "241",
+        "length": "30"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Employee 1 ID",
+        "from": "271",
+        "length": "6"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "column": "Name of Employee 2",
+        "dataType": "NAME",
+        "from": "277",
+        "length": "30"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Employee 2 ID",
+        "from": "307",
+        "length": "6"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Model Name",
+        "from": "313",
+        "length": "32"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Edit Codes",
+        "from": "345",
+        "length": "30"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PNC",
+        "from": "375",
+        "length": "5"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Sales Type",
+        "from": "380",
+        "length": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NMC Code",
+        "from": "381",
+        "length": "5"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Ethnicity Code off RDR",
+        "from": "386",
+        "length": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "Email address",
+        "dataType": "EMAIL",
+        "from": "387",
+        "length": "80"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "LMS ID of emp 1",
+        "from": "467",
+        "length": "10"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "LMS ID of emp 2",
+        "from": "477",
+        "length": "10"
+    }
+]

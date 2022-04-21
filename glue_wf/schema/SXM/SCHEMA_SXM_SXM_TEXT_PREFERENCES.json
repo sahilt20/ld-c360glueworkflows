@@ -1,0 +1,26 @@
+[
+    {
+        "nullable": "False",
+        "regex": "False",
+        "column": "Area Code",
+        "dataType": "WILDCARD",
+        "length": "3",
+        "minLength": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "dataType": "PHONE",
+        "column": "Phone Number",
+        "length": "20",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ActivityDt",
+        "length": "25",
+        "minLength": "0"
+    }
+]

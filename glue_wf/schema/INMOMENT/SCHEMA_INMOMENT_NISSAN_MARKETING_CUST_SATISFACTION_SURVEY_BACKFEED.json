@@ -1,0 +1,157 @@
+[
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "First Name",
+            "Last Name"
+        ],
+        "column": "First Name",
+        "dataType": "NAME",
+        "from": "1",
+        "length": "16"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Last Name",
+        "dataType": "NAME",
+        "from": "17",
+        "length": "18"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Street Address",
+            "",
+            "City",
+            "State",
+            "Zip+4"
+        ],
+        "column": "Street Address",
+        "dataType": "ADDRESS",
+        "from": "35",
+        "length": "40"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "City",
+        "dataType": "ADDRESS",
+        "from": "75",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "State",
+        "dataType": "ADDRESS",
+        "from": "100",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Zip+4",
+        "dataType": "ADDRESS",
+        "from": "102",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Day Phone",
+        "dataType": "PHONE",
+        "from": "111",
+        "length": "14"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Evening Phone",
+        "dataType": "PHONE",
+        "from": "125",
+        "length": "14"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Email Address",
+        "dataType": "EMAIL",
+        "from": "139",
+        "length": "80"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VIN",
+        "dataType": "VIN",
+        "from": "219",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Model year",
+        "from": "236",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Make",
+        "from": "240",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Model",
+        "from": "248",
+        "length": "32"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Date (transaction?)",
+        "from": "280",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealer Code",
+        "from": "288",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RDR/RO",
+        "from": "293",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Update Source",
+        "from": "296",
+        "length": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Transaction Master ID (TMID)",
+        "from": "297",
+        "length": "12"
+    }
+]

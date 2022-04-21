@@ -1,0 +1,449 @@
+[
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "Vin",
+        "dataType": "VIN",
+        "from": "1",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Title",
+        "dataType": "WILDCARD",
+        "from": "18",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Given Name",
+        "dataType": "NAME",
+        "from": "33",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Middle Name",
+        "dataType": "NAME",
+        "from": "63",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Consumer Family Name or Business Organization Name",
+        "dataType": "WILDCARD",
+        "from": "93",
+        "length": "60"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Name Suffix",
+        "dataType": "WILDCARD",
+        "from": "153",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Gender Code",
+        "from": "168",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Consumer or Business Record Type Code",
+        "from": "169",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Address 1",
+            "Address 2",
+            "City",
+            "State Abbreviation",
+            "Zip code"
+        ],
+        "column": "Address 1",
+        "dataType": "ADDRESS",
+        "from": "170",
+        "length": "60"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Address 2",
+        "dataType": "ADDRESS",
+        "from": "230",
+        "length": "60"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "City",
+        "dataType": "ADDRESS",
+        "from": "290",
+        "length": "28"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "State Abbreviation",
+        "dataType": "ADDRESS",
+        "from": "318",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Zip code",
+        "dataType": "ADDRESS",
+        "from": "320",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Zip+4",
+        "dataType": "WILDCARD",
+        "from": "325",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Purchase Date",
+        "from": "329",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Polk Match Indicator",
+        "from": "337",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Registration Date",
+        "from": "339",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Disposal Date",
+        "from": "355",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Inferred Disposal Date",
+        "from": "363",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Polk Name Verification Date",
+        "from": "371",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Polk Address Verification Date",
+        "from": "379",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Owner Disposer Flag",
+        "from": "388",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Client Data2",
+        "from": "404",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Client Data Cust_ID",
+        "from": "420",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Client Data Return",
+        "from": "435",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Title Code - 1",
+        "from": "450",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Date - 1",
+        "from": "451",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded State Code - 1",
+        "from": "457",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Title Code - 2",
+        "from": "459",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Date - 2",
+        "from": "460",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded State Code - 2",
+        "from": "466",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Title Code - 3",
+        "from": "468",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Date - 3",
+        "from": "469",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded State Code - 3",
+        "from": "475",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Title Code - 4",
+        "from": "477",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Date - 4",
+        "from": "478",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded State Code - 4",
+        "from": "484",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Title Code - 5",
+        "from": "486",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Date - 5",
+        "from": "487",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded State Code - 5",
+        "from": "493",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Title Code - 6",
+        "from": "495",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Date - 6",
+        "from": "496",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded State Code - 6",
+        "from": "502",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Title Code - 7",
+        "from": "504",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Date - 7",
+        "from": "505",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded State Code - 7",
+        "from": "511",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Title Code - 8",
+        "from": "513",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Date - 8",
+        "from": "514",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded State Code - 8",
+        "from": "520",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Title Code - 9",
+        "from": "522",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Date - 9",
+        "from": "523",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded State Code - 9",
+        "from": "529",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Title Code - 10",
+        "from": "531",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded Date - 10",
+        "from": "532",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Branded State Code - 10",
+        "from": "538",
+        "length": "2"
+    }
+]

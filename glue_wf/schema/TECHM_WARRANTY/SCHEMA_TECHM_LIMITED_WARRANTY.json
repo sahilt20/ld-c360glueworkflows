@@ -1,0 +1,464 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RECORD-A-SEQ",
+        "length": "04",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RECORD-A-TYPE",
+        "length": "01",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DEALER-NBR",
+        "length": "05",
+        "minLength": "0"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "VIN-SERIAL",
+        "dataType": "VIN",
+        "length": "17",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SALE-TYPE",
+        "length": "01",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SALE-TYPE-2",
+        "length": "01",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FILLER-A",
+        "length": "05",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RET-DATE",
+        "length": "06",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "EXP-DATE",
+        "length": "06",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "CUST-TITLE",
+        "dataType": "WILDCARD",
+        "length": "04",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "CUST-FNAME",
+        "dataType": "NAME",
+        "length": "11",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "CUST-LNAME",
+        "dataType": "NAME",
+        "length": "19",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FILLER-A1",
+        "length": "60",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RECORD-B-SEQ",
+        "length": "04",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "RECORD-B-TYPE",
+        "dataType": "WILDCARD",
+        "length": "01",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "CUST-INIT",
+        "length": "01",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "CUST-ADDR",
+            "",
+            "CUST-CITY",
+            "CUST-STATE",
+            "CUST-ZIP"
+        ],
+        "column": "CUST-ADDR",
+        "dataType": "ADDRESS",
+        "length": "25",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FILLER-B",
+        "length": "01",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "CUST-CITY",
+        "dataType": "ADDRESS",
+        "length": "25",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "CUST-STATE",
+        "dataType": "ADDRESS",
+        "length": "02",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "CUST-ZIP",
+        "dataType": "ADDRESS",
+        "length": "09",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FILLER-B1",
+        "length": "72",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RECORD-C-SEQ",
+        "length": "04",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RECORD-C-TYPE",
+        "length": "01",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "CUST-PHONE-AM",
+        "dataType": "PHONE",
+        "length": "14",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "CUST-PHONE-PM",
+        "dataType": "PHONE",
+        "length": "13",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "CUST-EMAIL",
+        "dataType": "EMAIL",
+        "length": "60",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "COMPANY-CODE",
+        "length": "01",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-FNAME",
+        "dataType": "NAME",
+        "length": "11",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-LNAME",
+        "dataType": "NAME",
+        "length": "18",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-INIT",
+        "dataType": "NAME",
+        "length": "01",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FILLER-C",
+        "length": "17",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RECORD-D-SEQ",
+        "length": "04",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RECORD-D-TYPE",
+        "length": "01",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "DRIVER-ADDR",
+            "",
+            "DRIVER-CITY",
+            "DRIVER-STATE",
+            "DRIVER-ZIP"
+        ],
+        "column": "DRIVER-ADDR",
+        "dataType": "ADDRESS",
+        "length": "25",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-CITY",
+        "dataType": "ADDRESS",
+        "length": "25",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-STATE",
+        "dataType": "ADDRESS",
+        "length": "02",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FILLER-D",
+        "length": "09",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-ZIP",
+        "dataType": "ADDRESS",
+        "length": "09",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FILLER-D1",
+        "length": "65",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RECORD-E-SEQ",
+        "length": "04",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RECORD-E-TYPE",
+        "length": "01",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-PH-AM",
+        "dataType": "PHONE",
+        "length": "14",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-PH-PM",
+        "dataType": "PHONE",
+        "length": "14",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "LICENSE-NBR",
+        "length": "08",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "LICENSE-STATE",
+        "dataType": "ADDRESS",
+        "length": "02",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ROAD-SERV-DATE",
+        "length": "06",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MODEL-YEAR",
+        "length": "02",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MODEL-TYPE",
+        "length": "05",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ACTION-FLAG",
+        "length": "02",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "LEASE-FLAG",
+        "length": "01",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "LEASE-EXP-DATE",
+        "length": "08",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "LEASE-PAYM-AMT",
+        "length": "07",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FILLER-E",
+        "length": "05",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NON-FULFILABLE-FG",
+        "length": "01",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "FILLER-F",
+        "length": "60",
+        "minLength": "0"
+    }
+]

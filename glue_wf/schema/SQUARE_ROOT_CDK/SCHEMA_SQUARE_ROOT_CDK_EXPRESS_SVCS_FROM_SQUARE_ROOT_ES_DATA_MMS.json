@@ -1,0 +1,34 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "dealer_id",
+        "from": "1",
+        "length": "20"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "vin",
+        "dataType": "VIN",
+        "from": "21",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ro_close_date",
+        "from": "38",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ro_number",
+        "from": "46",
+        "length": "50"
+    }
+]

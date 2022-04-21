@@ -1,0 +1,73 @@
+[
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealership Code",
+        "length": "11",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Enrollment Status",
+        "length": "8",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Dealership Name",
+        "dataType": "WILDCARD",
+        "length": "50",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Dealership Address",
+            "",
+            "Dealership City",
+            "Dealership State",
+            "Dealership Zip"
+        ],
+        "column": "Dealership Address",
+        "dataType": "ADDRESS",
+        "length": "152",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Dealership City",
+        "dataType": "ADDRESS",
+        "length": "50",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Dealership State",
+        "dataType": "ADDRESS",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Dealership Zip",
+        "dataType": "ADDRESS",
+        "length": "50",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealer Region",
+        "length": "83",
+        "minLength": "0"
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Email Address",
+        "dataType": "EMAIL",
+        "length": "255",
+        "minLength": "0"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Transaction Master ID (TMID)",
+        "length": "12",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Event Code",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Event Time",
+        "length": "19",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "URL",
+        "length": "2000",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Message ID",
+        "length": "30",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Master ID",
+        "length": "30",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Bounce Category",
+        "length": "4",
+        "minLength": "0"
+    }
+]

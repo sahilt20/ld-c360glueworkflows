@@ -1,0 +1,392 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-SEQ-NO",
+        "from": "1",
+        "length": "07"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-VIN",
+        "dataType": "VIN",
+        "from": "8",
+        "length": "17"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-POLICY-NO",
+        "from": "25",
+        "length": "12"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-ORIG-MFG-DATE",
+        "from": "37",
+        "length": "08"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-ORIG-MFG-MILES",
+        "from": "45",
+        "length": "08"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-AGRMT-EFF-DATE",
+        "from": "53",
+        "length": "08"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-AGRMT-EFF-MILES",
+        "from": "61",
+        "length": "08"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-AGRMT-EXP-DATE",
+        "from": "69",
+        "length": "08"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-AGRMT-EXP-MILES",
+        "from": "77",
+        "length": "08"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-MODEL-YEAR-N",
+        "from": "85",
+        "length": "04"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-MODEL-MAKE",
+        "from": "89",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-MODEL-TYPE",
+        "from": "104",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "VSI-CUST-FNAME",
+            "VSI-CUST-INIT",
+            "VSI-CUST-LNAME"
+        ],
+        "column": "VSI-CUST-FNAME",
+        "dataType": "NAME",
+        "from": "119",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "VSI-CUST-INIT",
+        "dataType": "WILDCARD",
+        "from": "134",
+        "length": "01"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-CUST-LNAME",
+        "dataType": "NAME",
+        "from": "135",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "VSI-CUST-ADDR-1",
+            "VSI-CUST-ADDR-2",
+            "VSI-CUST-CITY",
+            "VSI-CUST-STATE",
+            "VSI-CUST-ZIP"
+        ],
+        "column": "VSI-CUST-ADDR-1",
+        "dataType": "ADDRESS",
+        "from": "160",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-CUST-ADDR-2",
+        "dataType": "ADDRESS",
+        "from": "190",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-CUST-CITY",
+        "dataType": "ADDRESS",
+        "from": "220",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-CUST-STATE",
+        "dataType": "ADDRESS",
+        "from": "245",
+        "length": "02"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-CUST-ZIP",
+        "dataType": "ADDRESS",
+        "from": "247",
+        "length": "09"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-CUST-EMAIL",
+        "dataType": "EMAIL",
+        "from": "256",
+        "length": "60"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-LIENHOLDER",
+        "from": "316",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "VSI-ISSUER-NAME-1",
+            "VSI-ISSUER-NAME-2"
+        ],
+        "column": "VSI-ISSUER-NAME-1",
+        "dataType": "NAME",
+        "from": "346",
+        "length": "40"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-ISSUER-NAME-2",
+        "dataType": "NAME",
+        "from": "386",
+        "length": "40"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "VSI-ISSUER-ADDR",
+            "",
+            "VSI-ISSUER-CITY",
+            "VSI-ISSUER-STATE",
+            "VSI-ISSUER-ZIP"
+        ],
+        "column": "VSI-ISSUER-ADDR",
+        "dataType": "ADDRESS",
+        "from": "426",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-ISSUER-CITY",
+        "dataType": "ADDRESS",
+        "from": "456",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-ISSUER-STATE",
+        "dataType": "ADDRESS",
+        "from": "471",
+        "length": "02"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-ISSUER-ZIP",
+        "dataType": "ADDRESS",
+        "from": "473",
+        "length": "09"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-DLR-CODE",
+        "from": "482",
+        "length": "05"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "VSI-DLR-NAME",
+        "dataType": "WILDCARD",
+        "from": "487",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "VSI-DLR-ADDR",
+            "",
+            "VSI-DLR-CITY",
+            "VSI-DLR-STATE",
+            "VSI-DLR-ZIP"
+        ],
+        "column": "VSI-DLR-ADDR",
+        "dataType": "ADDRESS",
+        "from": "517",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-DLR-CITY",
+        "dataType": "ADDRESS",
+        "from": "547",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-DLR-STATE",
+        "dataType": "ADDRESS",
+        "from": "562",
+        "length": "02"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-DLR-ZIP",
+        "dataType": "ADDRESS",
+        "from": "564",
+        "length": "09"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-TRANS-FLAG",
+        "from": "573",
+        "length": "01"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-CONTR-ADD-DATE",
+        "from": "574",
+        "length": "08"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSI-DLR-PHONE",
+        "dataType": "PHONE",
+        "from": "582",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-PRODUCT-CODE",
+        "from": "592",
+        "length": "02"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-CONTR-DED-AMT",
+        "from": "594",
+        "length": "03"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-OBLIGOR-CODE",
+        "from": "597",
+        "length": "01"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-SURC-CODES",
+        "from": "598",
+        "length": "05"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-CANCEL-FEE",
+        "from": "603",
+        "length": "03"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-TRANSFER-FEE",
+        "from": "606",
+        "length": "02"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-PRINT-TYPE",
+        "from": "608",
+        "length": "01"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSI-RETAIL-COST",
+        "from": "609",
+        "length": "05"
+    }
+]

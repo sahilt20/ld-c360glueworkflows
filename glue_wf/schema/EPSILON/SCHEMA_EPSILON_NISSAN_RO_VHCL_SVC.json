@@ -1,0 +1,2076 @@
+[
+     { 
+          "nullable": "True", 
+          "regex": "False",
+          "column": "DEALER_ID",
+          "dataType": "WILDCARD",
+          "length": "20",
+          "minLength": "1"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "RO_NUM",
+          "dataType": "WILDCARD",
+          "length": "20",
+          "minLength": "1"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "RO_CLOSE_DATE",
+          "dataType": "WILDCARD",
+          "length": "10",
+          "minLength": "1"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_CONTACT_ID",
+          "dataType": "WILDCARD",
+          "length": "50",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_FULL_NAME",
+          "dataType": "NAME",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+          "regex": "True",
+          "relatedColumns":["CUST_ADDRESS","CUST_ADDRESS_2","CUST_CITY","CUST_DISTRICT","CUST_POSTAL_CODE"],
+          "column": "CUST_ADDRESS",
+          "dataType": "ADDRESS",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "CUST_ADDRESS_2",
+          "dataType": "ADDRESS",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "CUST_CITY",
+          "dataType": "ADDRESS",
+          "length": "60",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "CUST_DISTRICT",
+          "dataType": "ADDRESS",
+          "length": "60",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "CUST_REGION",
+          "dataType": "ADDRESS",
+          "length": "60",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "CUST_POSTAL_CODE",
+          "dataType": "ADDRESS",
+          "length": "60",
+          "minLength": "1"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "CUST_HOME_PH_WILDCARD",
+          "dataType": "PHONE",
+          "length": "256",
+          "minLength": "1"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "CUST_BUS_PH_WILDCARD",
+          "dataType": "PHONE",
+          "length": "256",
+          "minLength": "1"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "VEH_VIN",
+          "dataType": "VIN",
+          "length": "17",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "ODOMETER_OUT",
+          "dataType": "WILDCARD",
+          "length": "8",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "SERVICE_ADVISOR_CONTACT_ID",
+          "dataType": "WILDCARD",
+          "length": "50",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_PARTS_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_LABOR_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "1"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_RO_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "1"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_BUSINESS_PERSON_FLAG",
+          "dataType": "WILDCARD",
+          "length": "1",
+          "minLength": "1"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "OP_COUNT",
+          "dataType": "WILDCARD",
+          "length": "2",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "VEH_TYPE_CODE",
+          "dataType": "WILDCARD",
+          "length": "1",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_LABOR_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_PARTS_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_MISC_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_LABOR_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_PARTS_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_MISC_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_LABOR_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_PARTS_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_MISC_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "VEH_MODEL_YEAR",
+          "dataType": "WILDCARD",
+          "length": "5",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "VEH_MAKE",
+          "dataType": "WILDCARD",
+          "length": "50",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "VEH_MODEL",
+          "dataType": "WILDCARD",
+          "length": "50",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "CUST_HOME_EMAIL",
+          "dataType": "EMAIL",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "CUST_FIRST_NAME",
+          "dataType": "NAME",
+          "length": "60",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "CUST_LAST_NAME",
+          "dataType": "NAME",
+          "length": "60",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_MIDDLE_NAME",
+          "dataType": "NAME",
+          "length": "60",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "EXCEPTION_CODE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "DOMAIN_IDENTIFIER",
+          "dataType": "WILDCARD",
+          "length": "3",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "SERVICE_ADVISOR_FIRST_NAME",
+          "dataType": "WILDCARD",
+          "length": "60",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "SERVICE_ADVISOR_LAST_NAME",
+          "dataType": "WILDCARD",
+          "length": "60",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "RO_OPEN_DATE",
+          "dataType": "WILDCARD",
+          "length": "10",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_SALUTATION",
+          "dataType": "WILDCARD",
+          "length": "30",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_SUFFIX",
+          "dataType": "WILDCARD",
+          "length": "30",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_TITLE",
+          "dataType": "WILDCARD",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_COMPANY_NAME",
+          "dataType": "WILDCARD",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_DEPARTMENT",
+          "dataType": "WILDCARD",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_COUNTRY",
+          "dataType": "WILDCARD",
+          "length": "3",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_HOME_PH_EXTENSION",
+          "dataType": "PHONE",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "CUST_HOME_PH_COUNTRY_CODE",
+          "dataType": "PHONE",
+          "length": "20",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_BUS_PH_EXTENSION",
+          "dataType": "PHONE",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "CUST_BUS_PH_COUNTRY_CODE",
+          "dataType": "PHONE",
+          "length": "20",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "True",
+          "column": "CUST_BUS_EMAIL",
+          "dataType": "EMAIL",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_BIRTH_DATE",
+          "dataType": "WILDCARD",
+          "length": "10",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_ALLOW_SOLICIT",
+          "dataType": "WILDCARD",
+          "length": "1",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_ALLOW_PHONE_SOLICIT",
+          "dataType": "WILDCARD",
+          "length": "1",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_ALLOW_EMAIL_SOLICIT",
+          "dataType": "WILDCARD",
+          "length": "1",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_ALLOW_MAIL_SOLICIT",
+          "dataType": "WILDCARD",
+          "length": "1",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "ODOMETER_IN",
+          "dataType": "WILDCARD",
+          "length": "8",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "VEHICLE_PICKUP_DATE",
+          "dataType": "WILDCARD",
+          "length": "10",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "APPOINTMENT_FLAG",
+          "dataType": "WILDCARD",
+          "length": "1",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "DEPARTMENT",
+          "dataType": "WILDCARD",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "EXT_SVC_CONTRACT_NAMES",
+          "dataType": "WILDCARD",
+          "length": "1",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "PAYMENT_METHODS",
+          "dataType": "WILDCARD",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_PARTS_PRICE_1",
+          "dataType": "WILDCARD",
+          "length": "1",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_LABOR_PRICE_1",
+          "dataType": "WILDCARD",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_SUBLET_PRICE",
+          "dataType": "WILDCARD",
+          "length": "1",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_GOG_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_MISC_PRICE_1",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_PRICE",
+          "dataType": "WILDCARD",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_PARTS_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_LABOR_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_MISC_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_SUBLET_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_GOG_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_TTL_MISC_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_CUSTOMER_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_PARTS_PRICE_1",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_LABOR_PRICE_1",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_SUBLET_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_GOG_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_TTL_MISC_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_PARTS_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_LABOR_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_MISC_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_SUBLET_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_GOG_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_TTL_MISC_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_WARRANTY_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_PARTS_PRICE_1",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_LABOR_PRICE_1",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_SUBLET_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_GOG_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_TTL_MISC_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_PARTS_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_LABOR_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_MISC_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_SUBLET_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_GOG_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_TTL_MISC_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_INTERNAL_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_MISC_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_SUBLET_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_GOG_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_TTL_MISC_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_TAX_PRICE",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_PARTS_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_LABOR_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_MISC_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_SUBLET_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_GOG_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_TTL_MISC_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_RO_COST",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_ACTUAL_LABOR_HOURS",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TOTAL_BILLED_LABOR_HOURS",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "VEH_TRANS_DESCRIPTION",
+          "dataType": "WILDCARD",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "VEH_EXT_COLOR_DESCRIPTION",
+          "dataType": "WILDCARD",
+          "length": "5",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "VEH_TRIM_LEVEL",
+          "dataType": "WILDCARD",
+          "length": "5",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "VEH_REG_LICENSE_PLATE_WILDCARD",
+          "dataType": "WILDCARD",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "OPERATIONS",
+          "dataType": "WILDCARD",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "TECH_COMMENT",
+          "dataType": "WILDCARD",
+          "length": "80",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "CUST_COMMENT",
+          "dataType": "WILDCARD",
+          "length": "50",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "SERVICE_ADVISOR_MIDDLE_NAME",
+          "dataType": "WILDCARD",
+          "length": "60",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "SERVICE_ADVISOR_SALUTATION",
+          "dataType": "WILDCARD",
+          "length": "60",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "SERVICE_ADVISOR_SUFFIX",
+          "dataType": "WILDCARD",
+          "length": "256",
+          "minLength": "0"
+     },
+     { 
+          "nullable": "True", 
+           "regex": "False",
+          "column": "SERVICE_ADVISOR_FULL_NAME",
+          "dataType": "WILDCARD",
+          "length": "256",
+          "minLength": "0"
+     }
+     ][
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "DEALER_ID",
+         "dataType": "WILDCARD",
+         "length": "20",
+         "minLength": "1"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "RO_NUM",
+         "dataType": "WILDCARD",
+         "length": "20",
+         "minLength": "1"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "RO_CLOSE_DATE",
+         "dataType": "WILDCARD",
+         "length": "10",
+         "minLength": "1"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_CONTACT_ID",
+         "dataType": "WILDCARD",
+         "length": "50",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_FULL_NAME",
+         "dataType": "NAME",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_ADDRESS",
+         "relatedColumns": [
+          "CUST_ADDRESS",
+          "CUST_ADDRESS_2",
+          "CUST_CITY",
+          "CUST_DISTRICT",
+          "CUST_REGION",
+          "CUST_POSTAL_CODE"
+      ],
+         "dataType": "ADDRESS",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_ADDRESS_2",
+         "dataType": "ADDRESS",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_CITY",
+         "dataType": "ADDRESS",
+         "length": "60",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_DISTRICT",
+         "dataType": "ADDRESS",
+         "length": "60",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_REGION",
+         "dataType": "ADDRESS",
+         "length": "60",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_POSTAL_CODE",
+         "dataType": "ADDRESS",
+         "length": "60",
+         "minLength": "1"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_HOME_PH_WILDCARD",
+         "dataType": "PHONE",
+         "length": "256",
+         "minLength": "1"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_BUS_PH_WILDCARD",
+         "dataType": "PHONE",
+         "length": "256",
+         "minLength": "1"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "VEH_VIN",
+         "dataType": "VIN",
+         "length": "17",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "ODOMETER_OUT",
+         "dataType": "WILDCARD",
+         "length": "8",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "SERVICE_ADVISOR_CONTACT_ID",
+         "dataType": "WILDCARD",
+         "length": "50",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_PARTS_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_LABOR_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "1"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_RO_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "1"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_BUSINESS_PERSON_FLAG",
+         "dataType": "WILDCARD",
+         "length": "1",
+         "minLength": "1"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "OP_COUNT",
+         "dataType": "WILDCARD",
+         "length": "2",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "VEH_TYPE_CODE",
+         "dataType": "WILDCARD",
+         "length": "1",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_LABOR_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_PARTS_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_MISC_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_LABOR_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_PARTS_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_MISC_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_LABOR_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_PARTS_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_MISC_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "VEH_MODEL_YEAR",
+         "dataType": "WILDCARD",
+         "length": "5",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "VEH_MAKE",
+         "dataType": "WILDCARD",
+         "length": "50",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "VEH_MODEL",
+         "dataType": "WILDCARD",
+         "length": "50",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_HOME_EMAIL",
+         "dataType": "EMAIL",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_FIRST_NAME",
+         "dataType": "NAME",
+         "length": "60",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_LAST_NAME",
+         "dataType": "NAME",
+         "length": "60",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_MIDDLE_NAME",
+         "dataType": "NAME",
+         "length": "60",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "EXCEPTION_CODE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "DOMAIN_IDENTIFIER",
+         "dataType": "WILDCARD",
+         "length": "3",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "SERVICE_ADVISOR_FIRST_NAME",
+         "dataType": "WILDCARD",
+         "length": "60",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "SERVICE_ADVISOR_LAST_NAME",
+         "dataType": "WILDCARD",
+         "length": "60",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "RO_OPEN_DATE",
+         "dataType": "WILDCARD",
+         "length": "10",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_SALUTATION",
+         "dataType": "WILDCARD",
+         "length": "30",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_SUFFIX",
+         "dataType": "WILDCARD",
+         "length": "30",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_TITLE",
+         "dataType": "WILDCARD",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_COMPANY_NAME",
+         "dataType": "WILDCARD",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_DEPARTMENT",
+         "dataType": "WILDCARD",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_COUNTRY",
+         "dataType": "WILDCARD",
+         "length": "3",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_HOME_PH_EXTENSION",
+         "dataType": "PHONE",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_HOME_PH_COUNTRY_CODE",
+         "dataType": "PHONE",
+         "length": "20",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_BUS_PH_EXTENSION",
+         "dataType": "PHONE",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_BUS_PH_COUNTRY_CODE",
+         "dataType": "PHONE",
+         "length": "20",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_BUS_EMAIL",
+         "dataType": "EMAIL",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_BIRTH_DATE",
+         "dataType": "WILDCARD",
+         "length": "10",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_ALLOW_SOLICIT",
+         "dataType": "WILDCARD",
+         "length": "1",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_ALLOW_PHONE_SOLICIT",
+         "dataType": "WILDCARD",
+         "length": "1",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_ALLOW_EMAIL_SOLICIT",
+         "dataType": "WILDCARD",
+         "length": "1",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_ALLOW_MAIL_SOLICIT",
+         "dataType": "WILDCARD",
+         "length": "1",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "ODOMETER_IN",
+         "dataType": "WILDCARD",
+         "length": "8",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "VEHICLE_PICKUP_DATE",
+         "dataType": "WILDCARD",
+         "length": "10",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "APPOINTMENT_FLAG",
+         "dataType": "WILDCARD",
+         "length": "1",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "DEPARTMENT",
+         "dataType": "WILDCARD",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "EXT_SVC_CONTRACT_NAMES",
+         "dataType": "WILDCARD",
+         "length": "1",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "PAYMENT_METHODS",
+         "dataType": "WILDCARD",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_PARTS_PRICE_1",
+         "dataType": "WILDCARD",
+         "length": "1",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_LABOR_PRICE_1",
+         "dataType": "WILDCARD",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_SUBLET_PRICE",
+         "dataType": "WILDCARD",
+         "length": "1",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_GOG_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_MISC_PRICE_1",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_PRICE",
+         "dataType": "WILDCARD",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_PARTS_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_LABOR_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_MISC_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_SUBLET_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_GOG_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_TTL_MISC_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_CUSTOMER_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_PARTS_PRICE_1",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_LABOR_PRICE_1",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_SUBLET_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_GOG_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_TTL_MISC_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_PARTS_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_LABOR_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_MISC_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_SUBLET_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_GOG_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_TTL_MISC_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_WARRANTY_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_PARTS_PRICE_1",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_LABOR_PRICE_1",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_SUBLET_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_GOG_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_TTL_MISC_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_PARTS_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_LABOR_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_MISC_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_SUBLET_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_GOG_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_TTL_MISC_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_INTERNAL_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_MISC_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_SUBLET_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_GOG_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_TTL_MISC_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_TAX_PRICE",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_PARTS_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_LABOR_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_MISC_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_SUBLET_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_GOG_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_TTL_MISC_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_RO_COST",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_ACTUAL_LABOR_HOURS",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TOTAL_BILLED_LABOR_HOURS",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "VEH_TRANS_DESCRIPTION",
+         "dataType": "WILDCARD",
+         "length": "11",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "VEH_EXT_COLOR_DESCRIPTION",
+         "dataType": "WILDCARD",
+         "length": "5",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "VEH_TRIM_LEVEL",
+         "dataType": "WILDCARD",
+         "length": "5",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "VEH_REG_LICENSE_PLATE_WILDCARD",
+         "dataType": "WILDCARD",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "OPERATIONS",
+         "dataType": "WILDCARD",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "TECH_COMMENT",
+         "dataType": "WILDCARD",
+         "length": "80",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "CUST_COMMENT",
+         "dataType": "WILDCARD",
+         "length": "50",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "SERVICE_ADVISOR_MIDDLE_NAME",
+         "dataType": "WILDCARD",
+         "length": "60",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "SERVICE_ADVISOR_SALUTATION",
+         "dataType": "WILDCARD",
+         "length": "60",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "SERVICE_ADVISOR_SUFFIX",
+         "dataType": "WILDCARD",
+         "length": "256",
+         "minLength": "0"
+    },
+    { 
+         "nullable": "True", 
+         "regex": "False",
+         "column": "SERVICE_ADVISOR_FULL_NAME",
+         "dataType": "WILDCARD",
+         "length": "256",
+         "minLength": "0"
+    }
+    ]

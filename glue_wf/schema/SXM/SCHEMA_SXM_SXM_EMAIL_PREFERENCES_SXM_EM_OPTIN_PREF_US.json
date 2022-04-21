@@ -1,0 +1,18 @@
+[
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "EmailAddress",
+        "dataType": "EMAIL",
+        "length": "255",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ActivityDate",
+        "length": "8",
+        "minLength": "0"
+    }
+]

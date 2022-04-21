@@ -1,0 +1,26 @@
+[
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "VALID VIN",
+        "dataType": "VIN",
+        "length": "17",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "INVALID VIN",
+        "dataType": "WILDCARD",
+        "length": "17",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "NULL VINS",
+        "dataType": "WILDCARD",
+        "length": "17",
+        "minLength": "0"
+    }
+]

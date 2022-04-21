@@ -1,0 +1,34 @@
+[
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SpecialOfferCampaignID",
+        "length": "4",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SpecialOfferCampaignDescription",
+        "length": "500",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SpecialOfferCampaignBeginDate",
+        "length": "19",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SpecialOfferCampaignEndDate",
+        "length": "19",
+        "minLength": "0"
+    }
+]

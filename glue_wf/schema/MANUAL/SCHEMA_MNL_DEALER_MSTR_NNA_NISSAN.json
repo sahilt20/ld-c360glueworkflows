@@ -1,0 +1,50 @@
+[
+{ 
+     "nullable":"True",
+	 "regex": "False",
+     "column": "Change Type",
+     "dataType": "WILDCARD",
+     "length": "20",
+     "minLength": "0"
+},
+{ 
+     "nullable":"False",
+	 "regex": "False",
+     "column": "Dealer Code",
+     "dataType": "WILDCARD",
+     "length": "20",
+     "minLength": "1"
+},
+{ 
+     "nullable":"False",
+	 "regex": "False",
+     "column": "Sales Point",
+     "dataType": "WILDCARD",
+     "length": "20",
+     "minLength": "0"
+},
+{ 
+     "nullable":"True",
+	 "regex": "False",
+     "column": "Region",
+     "dataType": "WILDCARD",
+     "length": "20",
+     "minLength": "1"
+},
+{ 
+     "nullable":"True",
+	 "regex": "False",
+     "column": "District",
+     "dataType": "WILDCARD",
+     "length": "20",
+     "minLength": "1"
+},
+{ 
+     "nullable":"True",
+	 "regex": "False",
+     "column": "Dealer Name",
+     "dataType": "WILDCARD",
+     "length": "255",
+     "minLength": "0"
+}
+]

@@ -1,0 +1,230 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Case Number",
+        "length": "9",
+        "minLength": "0"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Case ID",
+        "length": "15",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DQR Number",
+        "length": "32",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Lead Provider",
+        "length": "17",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Lead Provider Detail",
+        "length": "31",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Lead Provider Name",
+        "length": "29",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Subject",
+        "length": "38",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Preferred Dealer",
+        "length": "40",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Opened Date",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Account Name",
+        "dataType": "WILDCARD",
+        "length": "62",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns":["Person Account: Mailing Street","","Person Account: Mailing City","Person Account: Mailing State/Province","Person Account: Mailing Zip/Postal Code"],
+        "column": "Person Account: Mailing Street",
+        "dataType": "ADDRESS",
+        "length": "60",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Person Account: Mailing City",
+        "dataType": "ADDRESS",
+        "length": "27",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Person Account: Mailing State/Province",
+        "dataType": "ADDRESS",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Person Account: Mailing Zip/Postal Code",
+        "dataType": "ADDRESS",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Person Account: Home Phone",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Person Account: Work Phone",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Person Account: Mobile",
+        "dataType": "PHONE",
+        "sequenceNo": "3",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Person Account: Email",
+        "dataType": "EMAIL",
+        "sequenceNo": "4",
+        "length": "60",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns":["Mailing Street 1","","Mailing City","Mailing State","Mailing Zip Code"],
+        "column": "Mailing Street 1",
+        "dataType": "ADDRESS",
+        "length": "60",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Mailing City",
+        "dataType": "ADDRESS",
+        "length": "30",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Mailing State",
+        "dataType": "ADDRESS",
+        "length": "2",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Mailing Zip Code",
+        "dataType": "ADDRESS",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Home Phone",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Work Phone",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Cell Phone",
+        "dataType": "PHONE",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Email",
+        "dataType": "EMAIL",
+        "length": "60",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Alternate Email",
+        "dataType": "EMAIL",
+        "length": "18",
+        "minLength": "0"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Case Reason",
+        "length": "41",
+        "minLength": "0"
+    }
+]

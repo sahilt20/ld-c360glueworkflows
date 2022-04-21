@@ -1,0 +1,21 @@
+PSTL_CD|PRIMRY_ADRS_LN_TX|CITY_NM|STATE_CD|PSTL_PLS_4_CD|ACTIVTY_DT
+8|7 Cody Avenue|baste|DK|3645|20020320
+|1854 Green Way|blizzard|NO|3656|20020320
+3614|41 Lake View Circle||DT|112|20010228
+7051|48703 Dennis Parkway|gleaned|ZU|6867|
+3501|97074 Anthes Point|shaikh's|DO|829|20010211
+730|6 Pleasure Terrace|clan|RO|4054|20020304
+4739|6417 Mallory Point|spotless|GP|310|20010209
+45513|08 Mitchell Junction|dividend's|ZE|369|20060601
+8041|1142 Brentwood Crossing|extra|CG|982|20020305
+3002|69344 Burning Wood Plaza|rifled|OH|2696|20000115
+34205|7 Becker Street|jolliest|UY|6760|20020330
+43313|552 Oak Valley Way|hailed|BD|7165|20010215
+31400|51 Lotheville Point|pouts|PN|405|20030422
+97543|55414 Park Meadow Way|outputted|XW|503|20030425
+8788|16 Shoshone Drive|mete|SQ|8197|20020314
+6429|4781 Hoard Plaza|bulb|HE|2355|20030406
+89472|3 Golden Leaf Road|sixties|NV|7135|20030419
+1174|7 North Crossing|operative|AT|100|20030410
+9526|6870 Alpine Circle|fungicides|LQ|926|20030421
+4197|193 Tennyson Place|ownership|BI|369|20000123

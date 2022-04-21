@@ -1,0 +1,337 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "L-DLR-NAME",
+        "dataType": "WILDCARD",
+        "from": "1",
+        "length": "40"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-DLRNO",
+        "from": "41",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-VALID-ASOF-DATE",
+        "from": "46",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-CONTRACT-MILES",
+        "from": "56",
+        "length": "7"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-MODEL",
+        "from": "63",
+        "length": "12"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-MDL-YR",
+        "from": "75",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-VEH-MSRP",
+        "from": "79",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-CAP-COST-AMT",
+        "from": "89",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-TOT-MO-PMT",
+        "from": "99",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-ORG-TERM",
+        "from": "109",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-MO-REM",
+        "from": "113",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-MAT-DATE",
+        "from": "118",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-EOT-AMT",
+        "from": "128",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-GROSS-PAYOFF",
+        "from": "138",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-ACCOUNT-TYPE",
+        "from": "148",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "L-NAME",
+        "dataType": "WILDCARD",
+        "from": "149",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "L-ADDRESS1",
+            "L-ADDRESS2",
+            "L-CUST-CITY",
+            "L-CUST-ADDR-ST",
+            "L-ZIP"
+        ],
+        "column": "L-ADDRESS1",
+        "dataType": "ADDRESS",
+        "from": "174",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "L-ADDRESS2",
+        "dataType": "ADDRESS",
+        "from": "199",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "L-CUST-CITY",
+        "dataType": "ADDRESS",
+        "from": "224",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "L-CUST-ADDR-ST",
+        "dataType": "ADDRESS",
+        "from": "249",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "L-ZIP",
+        "dataType": "ADDRESS",
+        "from": "251",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "L-HM-PH",
+        "dataType": "PHONE",
+        "from": "260",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "L-VIN",
+        "dataType": "VIN",
+        "from": "270",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-REGION",
+        "from": "287",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-BRANCH",
+        "from": "289",
+        "length": "4"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-LSE-NUM",
+        "from": "293",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-NMAC-RGN-NO",
+        "from": "298",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-NMAC-DIST-NO",
+        "from": "300",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-NMC-DLRNO",
+        "from": "304",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-NMC-DIST-NO",
+        "from": "309",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-NMC-RGN-NO",
+        "from": "313",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-GOOD-THRU-DATE",
+        "from": "315",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-DLR-STATUS",
+        "from": "325",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "L-BUS-PHONE",
+        "dataType": "PHONE",
+        "from": "326",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-SDEP-AMT",
+        "from": "336",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-ORIG-MAT-DATE",
+        "from": "346",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-TRIM-LVL-DESC",
+        "from": "356",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-PO-GOOD-TO-DATE",
+        "from": "371",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-LEASE-INTENSIONS",
+        "from": "381",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-ERLY_TERM_QTE_AM",
+        "from": "411",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "L-ET_GOOD_THRGH_DT",
+        "from": "421",
+        "length": "10"
+    }
+]

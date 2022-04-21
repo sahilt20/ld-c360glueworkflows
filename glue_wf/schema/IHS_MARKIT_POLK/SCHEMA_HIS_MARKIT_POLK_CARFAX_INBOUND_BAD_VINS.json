@@ -1,0 +1,10 @@
+[
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "VIN",
+        "dataType": "SPL_VIN",
+        "length": "17",
+        "minLength": "1"
+    }
+]

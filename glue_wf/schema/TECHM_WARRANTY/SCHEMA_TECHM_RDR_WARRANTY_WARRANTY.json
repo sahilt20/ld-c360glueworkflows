@@ -1,0 +1,365 @@
+[
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "RS10-VIN",
+        "dataType": "VIN",
+        "from": "1",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-MAKE",
+        "from": "18",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-MODEL",
+        "from": "20",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-MODEL-CODE",
+        "from": "23",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-MODEL-YEAR",
+        "from": "28",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-NEW-USED-SW",
+        "from": "30",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-COLOR",
+        "from": "31",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-TRIM",
+        "from": "36",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-RECEIVED-DATE",
+        "from": "37",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-SELLING-DEALER",
+        "from": "45",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-SOLD-DATE",
+        "from": "50",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-SALE-TYPE",
+        "from": "58",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-MFG-DATE",
+        "from": "59",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-RETAIL-DATE",
+        "from": "67",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-ACTION-FLAG",
+        "from": "75",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-DRIVER-TITLE",
+        "from": "77",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "RS10-DRIVER-FIRST-NAME",
+            "RS10-DRIVER-MIDDLE-NAME",
+            "RS10-DRIVER-LAST-NAME"
+        ],
+        "column": "RS10-DRIVER-FIRST-NAME",
+        "dataType": "NAME",
+        "from": "80",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-DRIVER-MIDDLE-NAME",
+        "dataType": "NAME",
+        "from": "95",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-DRIVER-LAST-NAME",
+        "dataType": "NAME",
+        "from": "105",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-DRIVER-DATE-OF-BIRTH",
+        "from": "125",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "RS10-DRIVER-ADDRESS-1",
+            "RS10-DRIVER-ADDRESS-2",
+            "RS10-DRIVER-CITY",
+            "RS10-DRIVER-STATE",
+            "RS10-DRIVER-ZIP"
+        ],
+        "column": "RS10-DRIVER-ADDRESS-1",
+        "dataType": "ADDRESS",
+        "from": "133",
+        "length": "40"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-DRIVER-ADDRESS-2",
+        "dataType": "ADDRESS",
+        "from": "173",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-DRIVER-CITY",
+        "dataType": "ADDRESS",
+        "from": "193",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-DRIVER-STATE",
+        "dataType": "ADDRESS",
+        "from": "213",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-DRIVER-ZIP",
+        "dataType": "ADDRESS",
+        "from": "215",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-DRIVER-DAY-PHONE",
+        "dataType": "PHONE",
+        "from": "220",
+        "length": "13"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-DRIVER-EVE-PHONE",
+        "dataType": "PHONE",
+        "from": "233",
+        "length": "13"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-DRIVER-EMAIL-ADDRESS",
+        "dataType": "EMAIL",
+        "from": "246",
+        "length": "80"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-OWNER-TITLE",
+        "from": "326",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-OWNER-FIRST-NAME",
+        "dataType": "NAME",
+        "from": "329",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-OWNER-MIDDLE-NAME",
+        "dataType": "NAME",
+        "from": "344",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-OWNER-LAST-NAME",
+        "dataType": "NAME",
+        "from": "354",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RS10-OWNER-DATE-OF-BIRTH",
+        "from": "374",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "RS10-OWNER-ADDRESS-1",
+            "RS10-OWNER-ADDRESS-2",
+            "RS10-OWNER-CITY",
+            "RS10-OWNER-STATE",
+            "RS10-OWNER-ZIP"
+        ],
+        "column": "RS10-OWNER-ADDRESS-1",
+        "dataType": "ADDRESS",
+        "from": "382",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-OWNER-ADDRESS-2",
+        "dataType": "ADDRESS",
+        "from": "412",
+        "length": "30"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-OWNER-CITY",
+        "dataType": "ADDRESS",
+        "from": "442",
+        "length": "20"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-OWNER-STATE",
+        "dataType": "ADDRESS",
+        "from": "462",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-OWNER-ZIP",
+        "dataType": "ADDRESS",
+        "from": "464",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-OWNER-DAY-PHONE",
+        "dataType": "PHONE",
+        "from": "469",
+        "length": "13"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-OWNER-EVE-PHONE",
+        "dataType": "PHONE",
+        "from": "482",
+        "length": "13"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "RS10-OWNER-EMAIL-ADDRESS",
+        "dataType": "EMAIL",
+        "from": "495",
+        "length": "80"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "RS10-COMMERCIAL-NAME-1",
+        "dataType": "WILDCARD",
+        "from": "575",
+        "length": "18"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "RS10-COMMERCIAL-NAME-2",
+        "dataType": "WILDCARD",
+        "from": "593",
+        "length": "15"
+    }
+]

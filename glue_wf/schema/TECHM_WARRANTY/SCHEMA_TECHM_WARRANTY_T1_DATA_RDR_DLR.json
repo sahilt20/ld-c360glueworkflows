@@ -1,0 +1,161 @@
+[
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Transmission line number",
+        "from": "1",
+        "length": "6"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealer Status Flag",
+        "from": "7",
+        "length": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealer ID",
+        "from": "8",
+        "length": "5"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealer Sales Point",
+        "from": "13",
+        "length": "5"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dual/Exclusive Flag",
+        "from": "18",
+        "length": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Region",
+        "from": "19",
+        "length": "2"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "District",
+        "from": "21",
+        "length": "2"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealer Name",
+        "from": "23",
+        "length": "25"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "relatedColumns": [
+            "Dealer Street",
+            "",
+            "Dealer City",
+            "Dealer State",
+            "Dealer Zip Code"
+        ],
+        "dataType": "WILDCARD",
+        "column": "Dealer Street",
+        "from": "48",
+        "length": "25"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "dataType": "WILDCARD",
+        "column": "Dealer City",
+        "from": "73",
+        "length": "17"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "dataType": "WILDCARD",
+        "column": "Dealer State",
+        "from": "90",
+        "length": "2"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "dataType": "WILDCARD",
+        "column": "Dealer Zip Code",
+        "from": "92",
+        "length": "5"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "dataType": "WILDCARD",
+        "column": "Dealer Phone",
+        "from": "97",
+        "length": "10"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealer Fax",
+        "from": "107",
+        "length": "10"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DBA Name",
+        "from": "117",
+        "length": "40"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Area",
+        "from": "157",
+        "length": "2"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealer Latitude",
+        "from": "159",
+        "length": "20"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealer Longitude",
+        "from": "179",
+        "length": "20"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealer Census Track",
+        "from": "199",
+        "length": "35"
+    }
+]

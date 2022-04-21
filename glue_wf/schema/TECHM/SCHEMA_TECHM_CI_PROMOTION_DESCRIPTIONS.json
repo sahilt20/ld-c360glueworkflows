@@ -1,0 +1,194 @@
+[
+    {
+        "nullable":"False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "INCNTV_PRGRM_ID",
+        "length": "10",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "LGCY_PRGRM_NM",
+        "length": "40",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "INCNTV_PRGRM_NM",
+        "length": "40",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "INCNTV_PRGRM_CMNT_TX",
+        "length": "40",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PRG_SLS_TYP",
+        "length": "15",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "INCNTV_TYP_CD",
+        "length": "2",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "INCNTV_TYP_NM",
+        "length": "20",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Cash or Non-NMAC Finc(0|3|D|W)",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Special APR(C|F)",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Standard APR(0|D)",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Lease(4|E)",
+        "length": "1",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "INCNTV_PRBLTY_GRP_NM",
+        "length": "15",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "incntv_prgrm_bgn_dt",
+        "length": "10",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "incntv_prgrm_end_dt",
+        "length": "10",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "sls_strt_dt",
+        "length": "10",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "sls_end_dt",
+        "length": "10",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "INCNTV_PRGRM_CLM_STRT_DT",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "INCNTV_PRGRM_CLM_END_DT",
+        "length": "10",
+        "minLength": "0"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "INCNTV_PRGRM_CLOS_DT",
+        "length": "10",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "CSTMR_PRGRM_RULES_IN",
+        "length": "1",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "IWZRD_IN",
+        "length": "1",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ADDITIONAL QUALIFIERS",
+        "length": "75",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VHCL_SPCFC_IN",
+        "length": "1",
+        "minLength": "1"
+    },
+    {
+        "nullable":"True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "incntv_prgrm_ky",
+        "length": "5",
+        "minLength": "1"
+    }
+]

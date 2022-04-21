@@ -1,0 +1,94 @@
+[
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "VIN",
+        "dataType": "VIN",
+        "from": "1",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Rewind-Date",
+        "from": "18",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Original-Retail-Date",
+        "from": "26",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Model-Code",
+        "from": "34",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Model-Year",
+        "from": "39",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "Owner-Tittle",
+        "dataType": "WILDCARD",
+        "from": "41",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Owner-First-Name",
+            "Owner-Last-Name"
+        ],
+        "column": "Owner-First-Name",
+        "dataType": "NAME",
+        "from": "44",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Owner-Last-Name",
+        "dataType": "NAME",
+        "from": "59",
+        "length": "18"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Dealer-Number",
+        "from": "77",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Region",
+        "from": "82",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Filler",
+        "from": "84",
+        "length": "7"
+    }
+]

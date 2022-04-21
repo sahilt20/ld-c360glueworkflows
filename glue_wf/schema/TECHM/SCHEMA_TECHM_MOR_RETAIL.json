@@ -1,0 +1,337 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "E-DLR-NAME",
+        "dataType": "WILDCARD",
+        "from": "1",
+        "length": "40"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-NMAC-DLR-NBR",
+        "from": "41",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-NOTE-START-DATE",
+        "from": "46",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-MODEL",
+        "from": "56",
+        "length": "12"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-MODEL-YR",
+        "from": "68",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-ORG-LOAN-AMT",
+        "from": "70",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-VALID-ASOF-DATE",
+        "from": "80",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-MONTHLY-PAYMENT",
+        "from": "90",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-APR-RATE",
+        "from": "100",
+        "length": "14"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-ORIG-TERM",
+        "from": "114",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-REMAINING-MONTHS",
+        "from": "118",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-MATURITY-DATE",
+        "from": "123",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-LOAN-BALANCE",
+        "from": "133",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-PAYOFF-AMOUNT",
+        "from": "143",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-ACCOUNT-TYPE",
+        "from": "153",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "E-CUST-FIRST-LAST",
+        "dataType": "NAME",
+        "from": "154",
+        "length": "40"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "E-CUST-ADDR1",
+            "E-CUST-ADDR2",
+            "E-CUST-CITY",
+            "E-CUST-STATE",
+            "E-CUST-ZIP"
+        ],
+        "dataType": "ADDRESS",
+        "column": "E-CUST-ADDR1",
+        "from": "194",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "E-CUST-ADDR2",
+        "dataType": "ADDRESS",
+        "from": "219",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "E-CUST-CITY",
+        "dataType": "ADDRESS",
+        "from": "244",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "E-CUST-STATE",
+        "dataType": "ADDRESS",
+        "from": "269",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "E-CUST-ZIP",
+        "dataType": "ADDRESS",
+        "from": "271",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "E-HOME-PHONE",
+        "dataType": "PHONE",
+        "from": "280",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-BANK",
+        "from": "290",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-BRANCH",
+        "from": "293",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-CUST-NBR",
+        "from": "296",
+        "length": "7"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-LOAN-NBR",
+        "from": "303",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "E-VIN",
+        "dataType": "VIN",
+        "from": "307",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-PRE-APPVL-NBR",
+        "from": "324",
+        "length": "14"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-PRE-APPVL-PAYMENT",
+        "from": "338",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-NMAC-REGION",
+        "from": "346",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-NMAC-DISTRICT",
+        "from": "348",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-NMC-DLR-NBR",
+        "from": "352",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-NMC-DISTRICT",
+        "from": "357",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-NMC-REGION",
+        "from": "361",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-GOOD-THRU-DATE",
+        "from": "363",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-STATUS",
+        "from": "373",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-ORIG-MAT-DATE",
+        "from": "374",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "E-BUS-PHONE",
+        "dataType": "PHONE",
+        "from": "384",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-NEW-USED-CODE",
+        "from": "394",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-TRIM-LVL-DESC",
+        "from": "395",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "E-PO-GOOD-TO-DATE",
+        "from": "410",
+        "length": "10"
+    }
+]

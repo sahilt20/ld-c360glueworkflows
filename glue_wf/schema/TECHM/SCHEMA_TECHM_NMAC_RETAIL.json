@@ -1,0 +1,205 @@
+[
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "First Name",
+            "Last Name"
+        ],
+        "column": "First Name",
+        "dataType": "NAME",
+        "from": "1",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Last Name",
+        "dataType": "NAME",
+        "from": "16",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "Address 1",
+            "Address 2",
+            "City",
+            "State",
+            "Zip"
+        ],
+        "dataType": "ADDRESS",
+        "column": "Address 1",
+        "from": "41",
+        "length": "36"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Address 2",
+        "dataType": "ADDRESS",
+        "from": "77",
+        "length": "36"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "City",
+        "dataType": "ADDRESS",
+        "from": "113",
+        "length": "23"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "State",
+        "dataType": "ADDRESS",
+        "from": "136",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "Zip",
+        "dataType": "ADDRESS",
+        "from": "138",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VIN",
+        "dataType": "VIN",
+        "from": "147",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Retail Indicator",
+        "from": "164",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Payment",
+        "from": "165",
+        "length": "11"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Original Process Date",
+        "from": "176",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Note Date",
+        "from": "186",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Maturity Date",
+        "from": "196",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Original Term",
+        "from": "206",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Term",
+        "from": "209",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Loan Balance",
+        "from": "212",
+        "length": "11"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Original Maturity Date",
+        "from": "223",
+        "length": "10"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "AccountNumber",
+        "from": "233",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NewOrUsed",
+        "from": "250",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PaidOffDate",
+        "from": "251",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DealerNumber",
+        "from": "261",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NNADealerNumber",
+        "from": "266",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Co_SIGNER_FIRST_NAME",
+        "from": "271",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "Co_SIGNER_LAST_NAME",
+        "from": "286",
+        "length": "25"
+    }
+]

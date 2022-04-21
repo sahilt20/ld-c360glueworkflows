@@ -1,0 +1,153 @@
+[
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DEALER_CODE",
+        "from": "1",
+        "length": "5"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "REGION",
+        "from": "7",
+        "length": "2"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DISTRICT",
+        "from": "9",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "DEALER_NAME",
+        "dataType": "WILDCARD",
+        "from": "11",
+        "length": "40"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "ADDRESS",
+            "",
+            "CITY",
+            "STATE",
+            "ZIP"
+        ],
+        "column": "ADDRESS",
+        "dataType": "ADDRESS",
+        "from": "51",
+        "length": "55"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "CITY",
+        "dataType": "ADDRESS",
+        "from": "106",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "STATE",
+        "dataType": "ADDRESS",
+        "from": "131",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "ZIP",
+        "dataType": "ADDRESS",
+        "from": "133",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "PHONE",
+        "dataType": "PHONE",
+        "from": "138",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MAKE ( N=Nissan, I=Infiniti )",
+        "from": "150",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ACTIVE ( A=Active )",
+        "from": "151",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NMAC_DEALER_CODE",
+        "from": "152",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SALES_POINT",
+        "from": "157",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "AREA",
+        "from": "162",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "EV",
+        "from": "165",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "LCV",
+        "from": "167",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NRC  (X=NRC certified,otherwise)",
+        "from": "170",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "eCommerce  (X= certified,otherwise)",
+        "from": "171",
+        "length": "1"
+    }
+]

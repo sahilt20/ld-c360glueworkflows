@@ -1,0 +1,18 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "AREA_CD",
+        "length": "3",
+        "minLength":"3"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "dataType": "PHONE",
+        "column": "PHONE",
+        "length": "14",
+        "minLength":"3"
+    }
+]

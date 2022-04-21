@@ -1,0 +1,396 @@
+[
+     { 
+          "nullable":"False",
+          "column": "RECORD-A-SEQ",
+          "dataType": "ALPHA_NUM",
+          "length": "04",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"False",
+          "column": "RECORD-A-TYPE",
+          "dataType": "ALPHA_NUM",
+          "length": "01",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"True",
+          "column": "DEALER-NBR",
+          "dataType": "ALPHA_NUM",
+          "length": "05",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"False",
+          "column": "VIN-SERIAL",
+          "dataType": "VIN",
+          "length": "17",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"False",
+          "column": "SALE-TYPE",
+          "dataType": "ALPHA_NUM",
+          "length": "01",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"False",
+          "column": "SALE-TYPE-2",
+          "dataType": "ALPHA_NUM",
+          "length": "01",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"True",
+          "column": "FILLER-A",
+          "dataType": "ALPHA_NUM",
+          "length": "05",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "RET-DATE",
+          "dataType": "DATE_YYMMDD",
+          "length": "06",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "EXP-DATE",
+          "dataType": "DATE_YYMMDD",
+          "length": "06",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "CUST-TITLE",
+          "dataType": "NAME",
+          "length": "04",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "CUST-FNAME",
+          "dataType": "NAME",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "CUST-LNAME",
+          "dataType": "NAME",
+          "length": "19",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "FILLER-A1",
+          "dataType": "TEXT",
+          "length": "60",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"False",
+          "column": "RECORD-B-SEQ",
+          "dataType": "ALPHA_NUM",
+          "length": "04",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"False",
+          "column": "RECORD-B-TYPE",
+          "dataType": "ADDRESS",
+          "length": "01",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"True",
+          "column": "CUST-INIT",
+          "dataType": "ALPHA_NUM",
+          "length": "01",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "relatedColumns":["CUST-ADDR","","CUST-CITY","CUST-STATE","CUST-ZIP"],
+          "column": "CUST-ADDR",
+          "dataType": "ADDRESS",
+          "length": "25",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "FILLER-B",
+          "dataType": "TEXT",
+          "length": "01",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "CUST-CITY",
+          "dataType": "ADDRESS",
+          "length": "25",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "CUST-STATE",
+          "dataType": "ADDRESS",
+          "length": "02",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "CUST-ZIP",
+          "dataType": "ADDRESS",
+          "length": "09",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "FILLER-B1",
+          "dataType": "TEXT",
+          "length": "72",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"False",
+          "column": "RECORD-C-SEQ",
+          "dataType": "ALPHA_NUM",
+          "length": "04",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"False",
+          "column": "RECORD-C-TYPE",
+          "dataType": "ALPHA_NUM",
+          "length": "01",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"True",
+          "column": "CUST-PHONE-AM",
+          "dataType": "PHONE",
+          "length": "14",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "CUST-PHONE-PM",
+          "dataType": "PHONE",
+          "length": "13",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "CUST-EMAIL",
+          "dataType": "EMAIL",
+          "length": "60",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "COMPANY-CODE",
+          "dataType": "ALPHA_NUM",
+          "length": "01",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "DRIVER-FNAME",
+          "dataType": "NAME",
+          "length": "11",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "DRIVER-LNAME",
+          "dataType": "NAME",
+          "length": "18",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "DRIVER-INIT",
+          "dataType": "NAME",
+          "length": "01",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "FILLER-C",
+          "dataType": "TEXT",
+          "length": "17",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"False",
+          "column": "RECORD-D-SEQ",
+          "dataType": "ALPHA_NUM",
+          "length": "04",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"False",
+          "column": "RECORD-D-TYPE",
+          "dataType": "ALPHA_NUM",
+          "length": "01",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"True",
+          "relatedColumns":["DRIVER-ADDR","","DRIVER-CITY","DRIVER-STATE","DRIVER-ZIP"],
+          "column": "DRIVER-ADDR",
+          "dataType": "ADDRESS",
+          "length": "25",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "DRIVER-CITY",
+          "dataType": "ADDRESS",
+          "length": "25",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "DRIVER-STATE",
+          "dataType": "ADDRESS",
+          "length": "02",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "FILLER-D",
+          "dataType": "TEXT",
+          "length": "09",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "DRIVER-ZIP",
+          "dataType": "ADDRESS",
+          "length": "09",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "FILLER-D1",
+          "dataType": "TEXT",
+          "length": "65",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"False",
+          "column": "RECORD-E-SEQ",
+          "dataType": "ALPHA_NUM",
+          "length": "04",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"False",
+          "column": "RECORD-E-TYPE",
+          "dataType": "ALPHA_NUM",
+          "length": "01",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"True",
+          "column": "DRIVER-PH-AM",
+          "dataType": "PHONE",
+          "length": "14",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "DRIVER-PH-PM",
+          "dataType": "PHONE",
+          "length": "14",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "LICENSE-NBR",
+          "dataType": "ALPHA_NUM",
+          "length": "08",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "LICENSE-STATE",
+          "dataType": "ADDRESS",
+          "length": "02",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "ROAD-SERV-DATE",
+          "dataType": "DATE_YYMMDD",
+          "length": "06",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"False",
+          "column": "MODEL-YEAR",
+          "dataType": "ALPHA_NUM",
+          "length": "02",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"True",
+          "column": "MODEL-TYPE",
+          "dataType": "ALPHA_NUM",
+          "length": "05",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"False",
+          "column": "ACTION-FLAG",
+          "dataType": "ALPHA_NUM",
+          "length": "02",
+          "minLength": "1"
+     },
+     { 
+          "nullable":"True",
+          "column": "LEASE-FLAG",
+          "dataType": "ALPHA_NUM",
+          "length": "01",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "LEASE-EXP-DATE",
+          "dataType": "DATE_YYYYMMDD",
+          "length": "08",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "LEASE-PAYM-AMT",
+          "dataType": "NUMBER_2",
+          "length": "07",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "FILLER-E",
+          "dataType": "TEXT",
+          "length": "05",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "NON-FULFILABLE-FG",
+          "dataType": "ALPHA_NUM",
+          "length": "01",
+          "minLength": "0"
+     },
+     { 
+          "nullable":"True",
+          "column": "FILLER-F",
+          "dataType": "TEXT",
+          "length": "60",
+          "minLength": "0"
+     }
+     ]

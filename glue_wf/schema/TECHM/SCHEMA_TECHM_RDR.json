@@ -1,0 +1,370 @@
+[
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "VIN",
+        "from": 1,
+        "length": 17,
+        "dataType": "VIN"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MAKE",
+        "from": 18,
+        "length": 2
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MODEL",
+        "from": 20,
+        "length": 3
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MODEL-CODE",
+        "from": 23,
+        "length": 5
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MODEL-YEAR",
+        "from": 28,
+        "length": 2
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "NEW-USED-SW",
+        "from": 30,
+        "length": 1
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "COLOR",
+        "from": 31,
+        "length": 5
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "TRIM",
+        "from": 36,
+        "length": 1
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RECEIVED-DATE",
+        "from": 37,
+        "length": 8
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SELLING-DEALER",
+        "from": 45,
+        "length": 5
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SOLD-DATE",
+        "from": 50,
+        "length": 8
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SALE-TYPE",
+        "from": 58,
+        "length": 1
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "MFG-DATE",
+        "from": 59,
+        "length": 8
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "RETAIL-DATE",
+        "from": 67,
+        "length": 8
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ACTION-FLAG",
+        "from": 75,
+        "length": 2
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "DRIVER-TITLE",
+        "from": 77,
+        "length": 3,
+        "dataType": "WILDCARD"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-FIRST-NAME",
+        "from": 80,
+        "length": 15,
+        "dataType": "NAME",
+        "relatedColumns": [
+            "DRIVER-FIRST-NAME",
+            "DRIVER-MIDDLE-NAME",
+            "DRIVER-LAST-NAME"
+        ]
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-MIDDLE-NAME",
+        "from": 95,
+        "length": 10,
+        "dataType": "NAME"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-LAST-NAME",
+        "from": 105,
+        "length": 20,
+        "dataType": "NAME"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "DRIVER-DATE-OF-BIRTH",
+        "from": 125,
+        "length": 8
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-ADDRESS-1",
+        "from": 133,
+        "length": 40,
+        "dataType": "ADDRESS",
+        "relatedColumns": [
+            "DRIVER-ADDRESS-1",
+            "DRIVER-ADDRESS-2",
+            "DRIVER-CITY",
+            "DRIVER-STATE",
+            "DRIVER-ZIP"
+        ]
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-ADDRESS-2",
+        "from": 173,
+        "length": 20,
+        "dataType": "ADDRESS"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-CITY",
+        "from": 193,
+        "length": 20,
+        "dataType": "ADDRESS"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-STATE",
+        "from": 213,
+        "length": 2,
+        "dataType": "ADDRESS"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-ZIP",
+        "from": 215,
+        "length": 5,
+        "dataType": "ADDRESS"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-DAY-PHONE",
+        "from": 220,
+        "length": 10,
+        "dataType": "PHONE"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-EVE-PHONE",
+        "from": 233,
+        "length": 10,
+        "dataType": "PHONE"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "DRIVER-EMAIL-ADDRESS",
+        "from": 246,
+        "length": 80,
+        "dataType": "EMAIL"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "OWNER-TITLE",
+        "from": 326,
+        "length": 3
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "OWNER-FIRST-NAME",
+        "from": 329,
+        "length": 15,
+        "dataType": "NAME",
+        "relatedColumns": [
+            "OWNER-FIRST-NAME",
+            "OWNER-MIDDLE-NAME",
+            "OWNER-LAST-NAME"
+        ]
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "OWNER-MIDDLE-NAME",
+        "from": 344,
+        "length": 10,
+        "dataType": "NAME"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "OWNER-LAST-NAME",
+        "from": 354,
+        "length": 20,
+        "dataType": "NAME"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "OWNER-DATE-OF-BIRTH",
+        "from": 374,
+        "length": 8
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "OWNER-ADDRESS-1",
+        "from": 382,
+        "length": 30,
+        "dataType": "ADDRESS",
+        "relatedColumns": [
+            "OWNER-ADDRESS-1",
+            "OWNER-ADDRESS-2",
+            "OWNER-CITY",
+            "OWNER-STATE",
+            "OWNER-ZIP"
+        ]
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "OWNER-ADDRESS-2",
+        "from": 412,
+        "length": 30,
+        "dataType": "ADDRESS"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "OWNER-CITY",
+        "from": 442,
+        "length": 20,
+        "dataType": "ADDRESS"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "OWNER-STATE",
+        "from": 462,
+        "length": 2,
+        "dataType": "ADDRESS"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "OWNER-ZIP",
+        "from": 464,
+        "length": 5,
+        "dataType": "ADDRESS"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "OWNER-DAY-PHONE",
+        "from": 469,
+        "length": 10,
+        "dataType": "PHONE"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "OWNER-EVE-PHONE",
+        "from": 482,
+        "length": 10,
+        "dataType": "PHONE"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "OWNER-EMAIL-ADDRESS",
+        "from": 495,
+        "length": 80,
+        "dataType": "EMAIL"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "COMMERCIAL-NAME",
+        "from": 575,
+        "length": 33,
+        "dataType": "WILDCARD"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "SALESMAN-ID",
+        "from": 608,
+        "length": 20
+    }
+]

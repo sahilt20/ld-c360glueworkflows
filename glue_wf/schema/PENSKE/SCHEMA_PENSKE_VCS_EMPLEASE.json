@@ -1,0 +1,89 @@
+[{ 
+     "nullable":"True",
+     "regex":"False",
+     "column": "Employee Name",
+     "dataType": "NAME",
+     "length": "25",
+     "minLength": "0"
+},
+{ 
+     "nullable":"True",
+     "regex":"False",
+     "column": "Employee Work Email",
+     "dataType": "EMAIL",
+     "length": "25",
+     "minLength": "1"
+},
+{ 
+     "nullable":"True",
+     "regex":"False",
+     "column": "Lease Start Date",
+     "dataType": "WILDCARD",
+     "length": "10",
+     "minLength": "1"
+},
+{ 
+     "nullable":"True",
+     "regex":"False",
+     "column": "Lease End Date",
+     "dataType": "WILDCARD",
+     "length": "10",
+     "minLength": "1"
+},
+{ 
+     "nullable":"False",
+     "regex":"True",
+     "column": "VIN",
+     "dataType": "VIN",
+     "length": "17",
+     "minLength": "1"
+},
+{ 
+     "nullable":"True",
+     "regex":"False",
+     "column": "ModelCode",
+     "dataType": "WILDCARD",
+     "length": "4",
+     "minLength": "1"
+},
+{ 
+     "nullable":"True",
+     "regex":"False",
+     "column": "Vehicle Type (Description)",
+     "dataType": "WILDCARD",
+     "length": "20",
+     "minLength": "1"
+},
+{ 
+     "nullable":"True",
+     "regex":"False",
+     "column": "Exterior Color",
+     "dataType": "WILDCARD",
+     "length": "3",
+     "minLength": "1"
+},
+{ 
+     "nullable":"True",
+     "regex":"False",
+     "column": "AssignmentType",
+     "dataType": "WILDCARD",
+     "length": "20",
+     "minLength": "1"
+},
+{ 
+     "nullable":"True",
+     "regex":"False",
+     "column": "Exec orTravel",
+     "dataType": "WILDCARD",
+     "length": "20",
+     "minLength": "0"
+},
+{ 
+     "nullable":"True",
+     "regex":"False",
+     "column": "PickupLocation",
+     "dataType": "WILDCARD",
+     "length": "40",
+     "minLength": "1"
+}
+]

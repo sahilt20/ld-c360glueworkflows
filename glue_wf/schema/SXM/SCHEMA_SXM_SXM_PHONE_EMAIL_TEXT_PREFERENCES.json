@@ -1,0 +1,57 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PSTL_CD",
+        "length": "5",
+        "minLength": "0"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "PRIM_ADDR_LN",
+        "relatedColumns": [
+            "PRIM_ADDR_LN",
+            "",
+            "CITY",
+            "ST",
+            "PSTL_CD"
+        ],
+        "dataType": "ADDRESS",
+        "length": "100",
+        "minLength": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "CITY",
+        "dataType": "ADDRESS",
+        "length": "50",
+        "minLength": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "True",
+        "column": "ST",
+        "dataType": "ADDRESS",
+        "length": "50",
+        "minLength": "1"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "PSTL_PLS_4_CD",
+        "length": "4",
+        "minLength": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "ACTVY_DT",
+        "length": "8",
+        "minLength": "0"
+    }
+]

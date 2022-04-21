@@ -1,0 +1,649 @@
+[
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-RECORD-TYPE",
+        "from": "1",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSIO-VIN",
+        "dataType": "VIN",
+        "from": "3",
+        "length": "17"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "column": "VSIO-NAME",
+        "dataType": "WILDCARD",
+        "from": "28",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "relatedColumns": [
+            "VSIO-ADDR-1",
+            "VSIO-ADDR-2",
+            "VSIO-CITY",
+            "VSIO-STATE",
+            "VSIO-ZIP"
+        ],
+        "column": "VSIO-ADDR-1",
+        "dataType": "ADDRESS",
+        "from": "53",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSIO-ADDR-2",
+        "dataType": "ADDRESS",
+        "from": "78",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSIO-CITY",
+        "dataType": "ADDRESS",
+        "from": "103",
+        "length": "25"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSIO-STATE",
+        "dataType": "ADDRESS",
+        "from": "128",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSIO-ZIP",
+        "dataType": "ADDRESS",
+        "from": "130",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSIO-HOME-PHONE",
+        "dataType": "PHONE",
+        "from": "139",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "True",
+        "column": "VSIO-BUS-PHONE",
+        "dataType": "PHONE",
+        "from": "149",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-SSN",
+        "from": "159",
+        "length": "9"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-REGION-CODE",
+        "from": "168",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-BRANCH",
+        "from": "170",
+        "length": "4"
+    },
+    {
+        "nullable": "False",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-LEASE-NUMBER",
+        "from": "174",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-NMC-REGION",
+        "from": "179",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-NMC-DLR-NUM",
+        "from": "183",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-LEASE-DATE",
+        "from": "188",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-LSE-START-DATE",
+        "from": "196",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-MATURITY-DATE",
+        "from": "204",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-ORIG-MONTHS-SIGN",
+        "from": "212",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-ORIG-MONTHS",
+        "from": "213",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-MONTHS-EXPIRED-SIGN",
+        "from": "216",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-MONTHS-EXPIRED",
+        "from": "217",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-MONTHS-REMAIN-SIGN",
+        "from": "220",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-MONTHS-REMAIN",
+        "from": "221",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-YR",
+        "from": "224",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-MAKE",
+        "from": "226",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-MODEL",
+        "from": "236",
+        "length": "10"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-PAID-TO-DATE",
+        "from": "246",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-TOTAL-RENT-SIGN",
+        "from": "254",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-TOTAL-RENT",
+        "from": "255",
+        "length": "7"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-PAYOFF-AMT-SIGN",
+        "from": "262",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-PAYOFF-AMT",
+        "from": "263",
+        "length": "7"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-REMAIN-RENT-TOT-SIGN",
+        "from": "270",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-REMAIN-RENT-TOT",
+        "from": "271",
+        "length": "7"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-RESIDUAL-AMT-SIGN",
+        "from": "278",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-RESIDUAL-AMT",
+        "from": "279",
+        "length": "7"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-PURCH-OPTION-SIGN",
+        "from": "286",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-PURCH-OPTION",
+        "from": "287",
+        "length": "7"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-SEC-DEPOSIT-SIGN",
+        "from": "294",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-SEC-DEPOSIT",
+        "from": "295",
+        "length": "7"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-DAYS-DELQ",
+        "from": "302",
+        "length": "3"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-TERM-DATE",
+        "from": "305",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-TERM-TYPE",
+        "from": "313",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-BANKRUPT-CODE",
+        "from": "317",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-XMIT-DATE",
+        "from": "321",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-SOURCE-CODE",
+        "from": "329",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-ADJUSTED-DATE",
+        "from": "331",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-REPO-FLAG",
+        "from": "339",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-LAST-RESULT-CODE",
+        "from": "340",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-ADJ-RESU-AMT-SIGN",
+        "from": "342",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-ADJ-RESU-AMT",
+        "from": "343",
+        "length": "7"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-CONTRACT-MILES",
+        "from": "350",
+        "length": "6"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-PAYOFF-DATE",
+        "from": "356",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-CUST-INT-INDICATOR",
+        "from": "364",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-CUST-INT-DATE",
+        "from": "366",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-PRE-APPR-CREDIT-STAT",
+        "from": "374",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-PRE-APPR-CREDIT-AMT-SIGN",
+        "from": "375",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-PRE-APPR-CREDIT-AMT",
+        "from": "376",
+        "length": "7"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-PRE-APPR-CREDIT-NUM",
+        "from": "383",
+        "length": "15"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-PRE-APPR-CREDIT-DTE",
+        "from": "398",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-LIT-REQ-1",
+        "from": "406",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-LIT-REQ-2",
+        "from": "410",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-LIT-REQ-3",
+        "from": "414",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-LIT-REQ-4",
+        "from": "418",
+        "length": "4"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-LIT-REQ-DTE",
+        "from": "422",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-LIT-REQ-SENT-DTE",
+        "from": "430",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-INSPECTION-DTE",
+        "from": "438",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-INSPECTION-STAT",
+        "from": "446",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-PREF-DEALER-NUM",
+        "from": "448",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-EST-GROUND-DTE",
+        "from": "453",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-ACT-GROUND-DLR-NUM",
+        "from": "461",
+        "length": "5"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-ACT-GROUND-DTE",
+        "from": "466",
+        "length": "8"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-GROUND-CONF-STAT",
+        "from": "474",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-EXCESS-WT-AMT-SIGN",
+        "from": "475",
+        "length": "1"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-EXCESS-WT-AMT",
+        "from": "476",
+        "length": "7"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-ORIGINAL-CONTRACT-STATE",
+        "from": "483",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-COMPANY",
+        "from": "485",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-REGION",
+        "from": "487",
+        "length": "2"
+    },
+    {
+        "nullable": "True",
+        "regex": "False",
+        "dataType": "WILDCARD",
+        "column": "VSIO-OFFICE",
+        "from": "489",
+        "length": "3"
+    }
+]
