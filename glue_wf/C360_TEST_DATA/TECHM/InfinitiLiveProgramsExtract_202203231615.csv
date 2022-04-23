@@ -1,0 +1,10 @@
+INCNTV_PRGRM_ID|LGCY_PRGRM_NM|INCNTV_PRGRM_NM|INCNTV_PRGRM_CMNT_TX|PRG_SLS_TYP|INCNTV_TYP_CD|INCNTV_TYP_NM|"Cash or Non-NMAC Finc(0|3|D|W)"|"Special APR(C|F)"|"Standard APR(0|D)"|"Lease(4|E)"|INCNTV_PRBLTY_GRP_NM|ip.incntv_prgrm_bgn_dt|incntv_prgrm_end_dt|sls_strt_dt|sls_end_dt|INCNTV_PRGRM_CLM_STRT_DT|INCNTV_PRGRM_CLM_END_DT|INCNTV_PRGRM_CLOS_DT|CSTMR_PRGRM_RULES_IN|IWZRD_IN|ADDITIONAL QUALIFIERS|VHCL_SPCFC_IN|incntv_prgrm_ky
+20I2299ABB|Michigan Bonus|Michigan Bonus||0|||||||||||||||||||
+20I2299BAA|Flexible Lease Cash May 2020|Flexible Lease Cash May 2020||4|4.0|Lease Cash||||Y|Likely Applies|2020-01-05|09/30/2020|2020-01-05|2020-01-06|||09/30/2021|Y|Y|Finance Contract Type Includes [STDLE||
+20I2299BAD|Michigan Bonus May 2020|Michigan Bonus May 2020||0|||||||||||||||||||
+20I2299BBA|CVT Class Action Voucher|CVT Class Action Voucher||0|||||||||||||||||||
+20I2299BBB|Lease Loyalty|Lease Loyalty||0|||||||||||||||||||
+20I2299CAB|Flexible Lease Bonus June 2020|Flexible Lease Bonus June 2020||4|4.0|Lease Cash||||Y|Likely Applies|2020-02-06|09/30/2020|2020-02-06|2020-06-07|||09/30/2021|Y|Y|Finance Contract Type Includes [STDLE||
+20I2299CAE|Michigan Bonus June 2020|Michigan Bonus June 2020||0|||||||||||||||||||
+20I2299CAE|Michigan Bonus June 2020|Michigan Bonus June 2020||0|||||||||||||||||||
+20I2299CBA|June Lease Loyalty|June Lease Loyalty||0|||||||||||||||||||

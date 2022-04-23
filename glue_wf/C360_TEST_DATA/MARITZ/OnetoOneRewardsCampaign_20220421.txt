@@ -1,0 +1,146 @@
+SpecialOfferCampaignID|SpecialOfferCampaignDescription|SpecialOfferCampaignBeginDate|SpecialOfferCampaignEndDate
+1|C&I $250 Offer|2010-10-01 12:00:00|2011-03-31 12:00:00
+2|50% Match|2011-02-01 12:00:00|2011-05-03 12:00:00
+3|Tire Promotion|2011-02-01 12:00:00|2011-02-28 12:00:00
+4|Q2 2011 $250 C&I|2011-05-03 12:00:00|2012-04-02 12:00:00
+5|Q3 2011 Spin to Win|2011-07-13 12:00:00|2011-12-13 12:00:00
+6|Make Whole Promo|2011-07-28 12:00:00|2011-07-31 12:00:00
+7|Q3 2011 Used Car Promo|2011-09-01 12:00:00|2011-10-31 12:00:00
+8|LABOR DAY Customer Bonus Points|2011-08-30 12:00:00|2011-09-06 12:00:00
+9|Keep the Summer Rolling Service Sweepstakes|2011-09-14 12:00:00|2011-10-31 12:00:00
+10|October Tire Promotion|2011-10-01 12:00:00|2011-10-31 12:00:00
+11|NOTOR Car Care Clinic|2011-10-01 12:00:00|2011-10-31 12:00:00
+12|Accessories Promotion|2011-11-01 12:00:00|2012-01-31 12:00:00
+13|Accelerate Your Rewards 2|2012-01-06 12:00:00|2012-03-31 12:00:00
+14|February Tire Promotion|2012-02-01 12:00:00|2012-03-31 12:00:00
+15|February Tire Promotion (Manufacturer)|2012-02-01 12:00:00|2012-03-31 12:00:00
+16|February Tire Promotion (NNA)|2012-02-01 12:00:00|2012-03-31 12:00:00
+17|February Tire Promotion (Dealer)|2012-02-01 12:00:00|2012-03-31 12:00:00
+18|Used Car Promotion 2|2012-04-03 12:00:00|2012-07-02 12:00:00
+19|LEAF "Go the Distance"|2012-06-04 12:00:00|2013-03-31 12:00:00
+20|Q2 2012 $250 C&I Offer|2012-05-01 12:00:00|2013-01-03 12:00:00
+21|May Vehicle Bonus Cash|2012-05-14 12:00:00|2012-06-01 12:00:00
+22|Nissan One-to-One Rewards Spring/Summer Accessory |2012-06-04 12:00:00|2012-08-31 12:00:00
+23|Nissan Customer Point Redemption Program|2012-06-18 12:00:00|2012-08-31 12:00:00
+24|Wiper Punch Promotion|2012-06-04 12:00:00|2012-08-31 12:00:00
+25|In-Cabin Filter Punch Promotion|2012-06-04 12:00:00|2012-08-31 12:00:00
+26|Nissan NEXT|2012-06-15 12:00:00|2013-03-01 12:00:00
+27|Summer Sweepstakes|2012-08-01 12:00:00|2012-10-31 12:00:00
+28|September Vehicle Rewards Bonus Cash|2012-09-05 12:00:00|2012-10-01 12:00:00
+29|October 2012 Tire Promo|2012-10-01 12:00:00|2012-10-31 12:00:00
+30|October Pathfinder Vehicle Bonus Cash|2012-10-03 12:00:00|2012-10-31 12:00:00
+31|New Owner Accessories Invitation|2012-11-14 12:00:00|2013-01-31 12:00:00
+32|October Rogue Limited Time Offer|2012-10-24 12:00:00|2012-10-31 12:00:00
+33|Armada Season To Save Rewards Event|2012-11-20 12:00:00|2013-01-02 12:00:00
+34|January Resolutions Rewards Offer|2013-01-03 12:00:00|2013-01-31 12:00:00
+35|Countdown to Spring Multi-Point Inspection Promoti|2013-02-05 12:00:00|2013-02-28 12:00:00
+36|Nissan Survey Rewards Offer|2013-02-24 12:00:00|2013-06-30 12:00:00
+37|2013 Owner Appreciation Event BlueConnect® Blueto|2013-04-01 12:00:00|2013-05-31 12:00:00
+38|Owner Appreciation Event|2013-04-01 12:00:00|2013-06-03 12:00:00
+39|Northeast Customer Appreciation Wiper Set|2013-05-01 12:00:00|2013-10-31 12:00:00
+40|Northeast Customer Appreciation Battery|2013-05-01 12:00:00|2013-10-31 12:00:00
+41|Northeast Customer Appreciation Brake Pad Set|2013-05-01 12:00:00|2013-10-31 12:00:00
+42|Northeast Customer Appreciation Brake Rotors Set|2013-05-01 12:00:00|2013-10-31 12:00:00
+43|Northeast Customer Appreciation Shocks and Struts|2013-05-01 12:00:00|2013-10-31 12:00:00
+44|Northeast Customer Appreciation Synthetic Oil Chan|2013-05-01 12:00:00|2013-10-31 12:00:00
+45|Northeast Customer Appreciation Tires|2013-05-01 12:00:00|2013-10-31 12:00:00
+46|Nissan Summer Tire Offer|2013-05-01 12:00:00|2013-07-31 12:00:00
+47|Nissan Summer Tire Offer (NNA)|2013-05-01 12:00:00|2013-07-31 12:00:00
+48|Nissan Summer Tire Offer (Dealer)|2013-05-01 12:00:00|2013-07-31 12:00:00
+49|Dual Head Restraint DVD Monitor Promotion|2013-06-01 12:00:00|2013-07-31 12:00:00
+50|Reward Your High-Mileage Nissan|2013-07-01 12:00:00|2013-08-31 12:00:00
+51|July Free to Choose Rewards Offer|2013-07-15 12:00:00|2013-07-31 12:00:00
+52|Nissan Keep Summer Rolling Sweepstakes|2013-08-01 12:00:00|2013-09-30 12:00:00
+53|Discover Quest September Reward|2013-09-05 12:00:00|2013-09-30 12:00:00
+54|Nissan October Car Care Tire Offer|2013-10-01 12:00:00|2013-10-31 12:00:00
+55|Nissan October Car Care Tire Offer (NNA)|2013-10-01 12:00:00|2013-10-31 12:00:00
+56|Nissan October Car Care Tire Offer (Dealer)|2013-10-01 12:00:00|2013-10-31 12:00:00
+57|Customer Point Redemption Program 2013/2014|2013-10-04 12:00:00|2013-10-31 12:00:00
+58|Value Advantage Brake Service Promotion|2013-11-01 12:00:00|2014-01-31 12:00:00
+59|Value Advantage Brake Service Promotion (NNA)|2013-11-01 12:00:00|2014-01-31 12:00:00
+60|Value Advantage Brake Service Promotion (Dealer)|2013-11-01 12:00:00|2014-01-31 12:00:00
+61|Season to Choose Rewards Incentive|2013-11-01 12:00:00|2014-01-02 12:00:00
+62|Altima Make It Your Own Reward Offer|2013-11-19 12:00:00|2014-01-31 12:00:00
+63|Members Recognition Event Service Offer|2013-12-03 12:00:00|2014-01-02 12:00:00
+64|Rewards Member Recognition Event Incentive|2013-12-02 12:00:00|2014-01-02 12:00:00
+65|Countdown to Spring|2014-02-03 12:00:00|2014-02-28 12:00:00
+66|100-Point Spring Tire Offer|2014-02-03 12:00:00|2014-04-30 12:00:00
+67|100-Point Spring Tire Offer (NNA)|2014-02-03 12:00:00|2014-04-30 12:00:00
+68|100-Point Spring Tire Offer (Dealer)|2014-02-03 12:00:00|2014-04-30 12:00:00
+69|Complete 4-Corner Shock & Strut Service|2014-02-03 12:00:00|2014-03-31 12:00:00
+70|Out of Warranty Promo/NE Pilot|2014-06-02 12:00:00|2014-06-30 12:00:00
+71|Complete 4-Corner Shock & Strut Service|2014-05-01 12:00:00|2014-07-31 12:00:00
+72|Versa Note June Reward|2014-06-03 12:00:00|2014-06-30 12:00:00
+73|Nissan Loyalty Rewards|2014-05-09 12:00:00|2014-08-05 12:00:00
+74|Reward Your High Mileage Vehicle Service Incentive|2014-08-01 12:00:00|2014-08-31 12:00:00
+75|Member Appreciation Offer|2014-08-01 12:00:00|2014-09-02 11:59:00
+76|Express Service - Free Oil Change|2014-10-01 12:00:00|2050-01-01 12:00:00
+77|Express Service - 20 Dealer-Funded Points|2015-04-01 12:00:00|2050-01-01 12:00:00
+78|October Car Care Tire Promotion (50/50)|2014-10-03 12:00:00|2014-10-31 12:00:00
+79|October Car Care Tire Promotion (50 NNA)|2014-10-03 12:00:00|2014-10-31 12:00:00
+80|October Car Care Tire Promotion (50 Dealer)|2014-10-03 12:00:00|2014-10-31 12:00:00
+81|October Car Care Tire Promotion (50 Manufacturer)|2014-10-03 12:00:00|2014-10-31 12:00:00
+82|October Car Care Tire Promotion (75/25)|2014-10-03 12:00:00|2014-10-31 12:00:00
+83|October Car Care Tire Promotion (75 NNA)|2014-10-03 12:00:00|2014-10-31 12:00:00
+84|October Car Care Tire Promotion (25 Dealer)|2014-10-03 12:00:00|2014-10-31 12:00:00
+85|October Car Care Tire Promotion (50 Manufacturer)|2014-10-03 12:00:00|2014-10-31 12:00:00
+86|100-Point Yokohama Tire Offer|2014-11-03 12:00:00|2015-01-01 12:00:00
+87|Countdown to Spring Multi-Point Inspection Offer|2015-02-02 12:00:00|2015-02-28 11:59:00
+88|Resolution to Save Sales Event|2015-01-06 12:00:00|2015-02-02 12:00:00
+89|Resolution to Save Sales Event|2015-01-06 12:00:00|2015-02-02 12:00:00
+90|Resolution to Save Sales Event|2015-01-06 12:00:00|2015-02-02 12:00:00
+91|Resolution to Save Sales Event|2015-01-06 12:00:00|2015-02-02 12:00:00
+92|Resolution to Save Sales Event|2015-01-06 12:00:00|2015-02-02 12:00:00
+93|100-Point Spring Tire Offer|2015-02-02 12:00:00|2015-04-30 12:00:00
+94|100-Point Spring Tire Offer (NMA)|2015-02-02 12:00:00|2015-04-30 12:00:00
+95|100-Point Spring Tire Offer (Dealer)|2015-02-02 12:00:00|2015-04-30 12:00:00
+96|15-Point Service Reward|2015-02-11 12:00:00|2015-03-31 11:59:00
+97|20-Point Service Reward|2015-02-11 12:00:00|2015-03-31 11:59:00
+98|2015 Murano Discovery|2015-03-02 12:00:00|2015-04-30 12:00:00
+99|Mobil 1 Premium Oil Change Offer|2015-05-01 12:00:00|2015-05-30 12:00:00
+100|Mobile App Summer Road Promotion|2015-05-23 12:00:00|2016-05-30 12:00:00
+101|Welcome Back Rewards|2015-07-01 12:00:00|2015-12-31 12:00:00
+102|NYC Taxi Initiative|2015-07-21 12:00:00|2016-03-31 12:00:00
+103|Member Appreciation Service Offer|2015-08-01 12:00:00|2015-09-30 12:00:00
+104|Value Advantage Complete Brake Service Offer|2015-09-01 12:00:00|2015-11-30 12:00:00
+105|2015 October Car Care Tire Offer|2015-10-01 12:00:00|2015-10-31 12:00:00
+106|2015 October Car Care Tire Offer (NNA)|2015-08-01 12:00:00|2015-08-01 12:00:00
+107|2015 October Car Care Tire Offer (Dealer)|2015-08-01 12:00:00|2015-08-01 12:00:00
+108|Value Advantage 4 Corner Shock & Strut Service|2015-10-01 12:00:00|2016-03-31 12:00:00
+109|Value Advantage 4 Corner Shock & Strut (NNA)|2015-08-01 12:00:00|2015-08-01 12:00:00
+110|Value Advantage 4 Corner Shock & Strut (Dealer)|2015-08-01 12:00:00|2015-08-01 12:00:00
+111|Maxima Test Drive Offer|2015-11-03 12:00:00|2015-11-30 12:00:00
+112|The Voice Mobile App Sweepstakes Points|2015-12-08 12:00:00|2016-06-08 12:00:00
+113|Value Advantage™ 2 Corner Shock & Strut Service|2015-12-03 12:00:00|2016-03-31 12:00:00
+114|Value Advantage™ 2 Corner Shock & Strut (NNA)|2015-12-03 12:00:00|2016-03-31 12:00:00
+115|Value Advantage™ 2 Corner Shock & Strut (Dealer)|2015-12-03 12:00:00|2016-03-31 12:00:00
+116|2016 Spring Tire Offer|2016-02-01 12:00:00|2016-04-04 12:00:00
+117|2016 Spring Tire Offer (NNA)|2016-02-01 12:00:00|2016-04-04 12:00:00
+118|2016 Spring Tire Offer (Dealer)|2016-02-01 12:00:00|2016-04-04 12:00:00
+119|Countdown to Spring Multi-Point Inspection Offer|2016-02-01 12:00:00|2016-02-29 12:00:00
+120|2016 Member Appreciation Offer|2016-06-01 12:00:00|2016-07-31 12:00:00
+121|Survey Rewards|2016-07-15 12:00:00|2017-07-15 12:00:00
+122|2016 October Tire Offer|2016-09-30 12:00:00|2016-11-03 12:00:00
+123|2016 October Tire Offer (NNA)|2016-09-30 12:00:00|2016-11-03 12:00:00
+124|2016 October Tire Offer (Dealer)|2016-09-30 12:00:00|2016-11-03 12:00:00
+125|2016 Titan Bonus Points|2016-09-27 12:00:00|2017-04-27 12:00:00
+126|Titan Bonus Sales Points|2016-12-06 12:00:00|2017-01-31 12:00:00
+127|2017 Spring Tire Offer|2017-02-01 12:00:00|2017-03-06 12:00:00
+128|2017 Spring Tire Offer (NNA)|2017-02-01 12:00:00|2017-03-06 12:00:00
+129|2017 Spring Tire Offer (Dealer)|2017-02-01 12:00:00|2017-03-06 12:00:00
+130|Complimentary Rear Wiper Offer|2017-02-01 12:00:00|2017-04-04 12:00:00
+131|Complimentary Rear Wiper Offer (NNA)|2017-02-01 12:00:00|2017-04-04 12:00:00
+132|2017 Resolution to Save|2017-01-12 12:00:00|2017-02-28 12:00:00
+133|2017 Resolution to Save|2017-01-12 12:00:00|2017-02-28 12:00:00
+134|2017 Countdown to Spring|2017-03-01 12:00:00|2017-03-28 12:00:00
+135|Owner Appreciation MPI Offer|2017-05-01 12:00:00|2017-06-30 12:00:00
+136|TITAN Rental Rewards|2017-08-01 12:00:00|2017-09-30 12:00:00
+137|TITAN Rental Rewards  TITAN Rental Rewards – 1 C|2017-08-01 12:00:00|2017-09-30 12:00:00
+138|TITAN Rental Rewards  TITAN Rental Rewards - 2 Com|2017-08-01 12:00:00|2017-09-30 12:00:00
+139|Bottom Line Exclusive Member Bonus Cash|2017-08-10 12:00:00|2017-09-05 12:00:00
+633|AutoPoint|2079-01-01 12:00:00|2079-01-01 12:00:00
+644|Spring Back MPI Offer|2018-04-01 12:00:00|2018-05-31 12:00:00
+754|2019 Exclusive Spring Service Offer|2019-02-20 12:00:00|2019-03-31 12:00:00
+831|2019 Member Recognition Offer|2019-08-01 12:00:00|2019-09-30 12:00:00
+835|2020 Spring Ahead Service Offer|2020-02-28 12:00:00|2020-04-30 12:00:00
+1000|150-Point Private Service Offer|2020-11-02 12:00:00|2020-12-31 12:00:00
